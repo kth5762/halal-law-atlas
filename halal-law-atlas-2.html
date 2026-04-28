@@ -1229,6 +1229,67 @@
     .tier-row.totals .tier-body { font-size: 14px; padding: 14px 22px; }
     .expanded-footer { grid-template-columns: 1fr; padding: 22px 24px; gap: 20px; }
   }
+
+  /* ============ FOOD / COSMETICS SCOPE BADGES ============ */
+  .scope-badge {
+    display: inline-block;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.08em;
+    padding: 2px 7px;
+    border-radius: 2px;
+    vertical-align: 2px;
+    margin-left: 6px;
+    font-weight: 500;
+  }
+  .scope-badge.fc { background: var(--navy); color: var(--cream); }
+  .scope-badge.food { background: var(--emerald); color: var(--cream); }
+  .scope-badge.cosm { background: #7c3aed; color: #f5f3ff; }
+  .scope-badge.planned { background: transparent; color: #7c3aed; border: 1px solid #7c3aed; }
+  .scope-badge.cosm-status { 
+    font-size: 10px; 
+    padding: 3px 10px; 
+    letter-spacing: 0.12em; 
+  }
+
+  /* Cosmetics compare table accent */
+  table.compare-cosm thead { background: #5b21b6; }
+  table.compare-cosm th:first-child { background: #4c1d95; }
+  table.compare-cosm td:first-child {
+    background: #faf5ff;
+    font-family: 'Noto Serif KR', serif;
+    font-weight: 700;
+    color: #4c1d95;
+    border-right: 2px solid #7c3aed;
+  }
+  section.dark table.compare-cosm td:first-child {
+    background: var(--navy-mid);
+    color: var(--gold-pale);
+    border-right-color: var(--gold);
+  }
+
+  /* Scope legend */
+  .scope-legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    align-items: center;
+    margin-bottom: 28px;
+    padding: 14px 18px;
+    background: white;
+    border: 1px solid var(--rule-soft);
+    font-size: 12px;
+    color: var(--ink-soft);
+  }
+  .scope-legend-title {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.15em;
+    color: var(--ink-mute);
+    text-transform: uppercase;
+    margin-right: 8px;
+  }
+
   /* ============ PAGE NAVIGATION ============ */
   .page-nav-band {
     background: var(--cream);
@@ -1541,6 +1602,126 @@
     <div style="margin-top:24px; font-size:11px; color: var(--ink-mute); font-family: 'IBM Plex Mono', monospace; letter-spacing:0.05em;">
       범례 : <span class="pill m">MANDATORY</span> 강제 인증 / <span class="pill v">VOLUNTARY</span> 자율 인증 (단, 라벨·마크 사용은 인증 필수) / <span class="pill h">HARMONIZED</span> 국제표준 자국 채택
     </div>
+    <div class="section-head" style="margin-top:56px;">
+      <div>
+        <div class="section-num" style="color:#7c3aed;">— IV-B — Cosmetics matrix</div>
+        <h2 class="section-title">화장품 할랄 인증 비교표</h2>
+      </div>
+      <div class="section-tagline">cosmetics-specific<br/>halal requirements</div>
+    </div>
+
+    <div class="compare-wrap">
+      <table class="compare compare-cosm">
+        <thead>
+          <tr>
+            <th>국가</th>
+            <th>화장품 할랄 강제 여부</th>
+            <th>화장품 전용 표준</th>
+            <th>화장품 규제 기관</th>
+            <th>등록 플랫폼</th>
+            <th>돼지 성분·알코올</th>
+            <th>시행 시점</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>인도네시아</td>
+            <td><span class="pill m">강제 예정</span> 2026.10.17~</td>
+            <td>BPJPH 화장품 가이드라인 (준비 중)</td>
+            <td>BPJPH + BPOM</td>
+            <td>SIHALAL + BPOM 포털</td>
+            <td>전면 금지</td>
+            <td>Phase 2: 2026.10</td>
+          </tr>
+          <tr>
+            <td>아랍에미리트</td>
+            <td><span class="pill v">자율</span> 표시 시 인증 필수</td>
+            <td>UAE.S 2055-4:2014</td>
+            <td>MOIAT + Dubai Municipality</td>
+            <td>ECAS + Montaji</td>
+            <td>돼지 금지 · 알코올 용도별 허용</td>
+            <td>시행 중 (2014~)</td>
+          </tr>
+          <tr>
+            <td>사우디아라비아</td>
+            <td><span class="pill v">자율</span> 권장 (돼지 금지는 강제)</td>
+            <td>GSO 1943 + Cosmetic Law M/49</td>
+            <td>SFDA</td>
+            <td>GHAD + FASEH</td>
+            <td>돼지 금지 · 알코올 제한 허용</td>
+            <td>시행 중</td>
+          </tr>
+          <tr>
+            <td>말레이시아</td>
+            <td><span class="pill v">자율</span> 표시 시 인증 필수</td>
+            <td>MS 2634:2019</td>
+            <td>JAKIM + NPRA</td>
+            <td>MYeHALAL</td>
+            <td>금지 + 나즈(najs) 정화 절차</td>
+            <td>시행 중 (2008~)</td>
+          </tr>
+          <tr>
+            <td>튀르키예</td>
+            <td><span class="pill v">자율</span></td>
+            <td>OIC/SMIIC 4:2018 <span class="scope-badge cosm" style="font-size:8px;">COSMETICS</span> (참조)</td>
+            <td>HAK</td>
+            <td>—</td>
+            <td>자율</td>
+            <td>—</td>
+          </tr>
+          <tr>
+            <td>브루나이</td>
+            <td>부분 적용</td>
+            <td>PBD 24:2007 (식품 중심)</td>
+            <td>MUIB</td>
+            <td>—</td>
+            <td>금지</td>
+            <td>—</td>
+          </tr>
+          <tr>
+            <td>싱가포르</td>
+            <td>미확립</td>
+            <td>—</td>
+            <td>MUIS (식품 중심)</td>
+            <td>—</td>
+            <td>—</td>
+            <td>—</td>
+          </tr>
+          <tr>
+            <td>파키스탄</td>
+            <td><span class="pill v">자율</span></td>
+            <td>PS 5319 (화장품)</td>
+            <td>PHA + PSQCA</td>
+            <td>—</td>
+            <td>금지</td>
+            <td>—</td>
+          </tr>
+          <tr>
+            <td>태국</td>
+            <td>미확립</td>
+            <td>—</td>
+            <td>CICOT</td>
+            <td>—</td>
+            <td>—</td>
+            <td>—</td>
+          </tr>
+          <tr>
+            <td>이집트</td>
+            <td>미확립</td>
+            <td>—</td>
+            <td>EDA</td>
+            <td>—</td>
+            <td>—</td>
+            <td>—</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div style="margin-top:24px; font-size:11px; color: var(--ink-mute); font-family: 'IBM Plex Mono', monospace; letter-spacing:0.05em;">
+      범례 : <span class="pill m">MANDATORY</span> 강제 인증 / <span class="pill v">VOLUNTARY</span> 자율 인증 / <span style="display:inline-block;background:#7c3aed;color:#f5f3ff;padding:1px 6px;font-size:9px;border-radius:2px;">C</span> 화장품 전용 표준 보유국
+    </div>
+
   </div>
 </section>
 
@@ -1766,6 +1947,15 @@
         </div>
       </div>
       <div class="tl-item">
+        <div class="tl-year">2008</div>
+        <div class="tl-marker"></div>
+        <div class="tl-content">
+          <div class="tl-country">말레이시아</div>
+          <div class="tl-event" style="color:#7c3aed;">MS 2200-1:2008 제정 — 최초의 화장품 할랄 국가 표준</div>
+          <div class="tl-note">이후 2019년 MS 2634:2019로 대체</div>
+        </div>
+      </div>
+      <div class="tl-item">
         <div class="tl-year">2010</div>
         <div class="tl-marker"></div>
         <div class="tl-content">
@@ -1788,7 +1978,7 @@
         <div class="tl-content">
           <div class="tl-country">인도네시아 · UAE</div>
           <div class="tl-event">UU 33/2014 (인도네시아) · Cabinet Decree 10/2014 (UAE)</div>
-          <div class="tl-note">양국 모두 강제 인증 체제 입법 기점</div>
+          <div class="tl-note">양국 모두 강제 인증 체제 입법 기점 · <span style="color:#7c3aed;">UAE.S 2055-4 (화장품 할랄 표준) 동시 제정</span></div>
         </div>
       </div>
       <div class="tl-item">
@@ -1806,6 +1996,24 @@
           <div class="tl-country">튀르키예 · 인도네시아 · 브루나이</div>
           <div class="tl-event">HAK 설립법 7060 · BPJPH 출범 · 브루나이 강제 인증 확대</div>
           <div class="tl-note">3개국 동시 입법·시행 — 글로벌 강제화 흐름의 전환점</div>
+        </div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-year">2018</div>
+        <div class="tl-marker"></div>
+        <div class="tl-content">
+          <div class="tl-country">국제 / OIC</div>
+          <div class="tl-event" style="color:#7c3aed;">OIC/SMIIC 4:2018 발행 — 화장품 할랄 국제 표준</div>
+          <div class="tl-note">식품(SMIIC 1)에 대응하는 화장품 전용 국제 표준</div>
+        </div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-year">2019</div>
+        <div class="tl-marker"></div>
+        <div class="tl-content">
+          <div class="tl-country">말레이시아</div>
+          <div class="tl-event" style="color:#7c3aed;">MS 2634:2019 제정 — MS 2200-1 대체 (화장품 할랄 전용)</div>
+          <div class="tl-note">원료 3등급 분류(Critical/Semi-critical/Non-critical) 체계 도입</div>
         </div>
       </div>
       <div class="tl-item">
@@ -1855,7 +2063,7 @@
         <div class="tl-marker"></div>
         <div class="tl-content">
           <div class="tl-country">이집트 · 인도네시아</div>
-          <div class="tl-event">IS EG Halal → Halal-ALQAHIRAH 사명 변경 (2.1)<br/>인도네시아 외국 식품 의무 인증 시한 (10.17)</div>
+          <div class="tl-event">IS EG Halal → Halal-ALQAHIRAH 사명 변경 (2.1)<br/>인도네시아 외국 식품 의무 인증 시한 (10.17)<br/><span style="color:#7c3aed;">인도네시아 화장품·의약품·소비재 강제 인증 시행 (10.17)</span></div>
         </div>
       </div>
     </div>

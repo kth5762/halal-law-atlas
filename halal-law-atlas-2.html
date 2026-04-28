@@ -904,6 +904,9 @@
     border-radius: 2px;
   }
   .pill.m { background: var(--crimson); color: var(--cream); }
+  .pill.pm { background: #b45309; color: var(--cream); }
+  .tag.partial { background: #b45309; color: var(--cream); border-color: #b45309; }
+
   .pill.v { background: var(--emerald); color: var(--cream); }
   .pill.h { background: var(--gold); color: white; }
 
@@ -1518,7 +1521,7 @@
             <td>아랍에미리트</td>
             <td>MOIAT (구 ESMA)</td>
             <td>Cabinet Resolution 10/2014</td>
-            <td><span class="pill m">강제</span> 라벨 부착 시</td>
+            <td><span class="pill v">자율</span> 할랄 표시·마크 사용 시 인증 필수</td>
             <td>아랍어 (영문 병기)</td>
             <td>MOIAT 등록제 (구 ESMA)</td>
             <td><span class="pill h">자국 표준 채택</span></td>
@@ -1527,7 +1530,7 @@
             <td>사우디아라비아</td>
             <td>SFDA / Saudi Halal Center</td>
             <td>식품법 M/1 + SFDA 결정 + GSO 표준</td>
-            <td><span class="pill m">강제</span> 동물성·가공식품</td>
+            <td><span class="pill pm">부분 강제</span> 식품·동물성 원료·할랄 표시 중심</td>
             <td>아랍어</td>
             <td>SHC 인정 목록제</td>
             <td>GSO 경유 채택 (SFDA.FD)</td>
@@ -1545,7 +1548,7 @@
             <td>튀르키예</td>
             <td>HAK (할랄인정청)</td>
             <td>Law 7060/2017 + Law 7408/2022</td>
-            <td><span class="pill v">자율</span> 단, 표시 시 SMIIC 의무</td>
+            <td><span class="pill v">자율</span> 제품 자율 · 적합성평가기관 HAK 인정 강제</td>
             <td>튀르키예어 (영문 제공)</td>
             <td>HAK 인정 또는 MRA</td>
             <td><span class="pill h">의무 적용 (Law 7408)</span></td>
@@ -1554,7 +1557,7 @@
             <td>브루나이</td>
             <td>MUIB / BKMH</td>
             <td>Halal Meat Act + HCHL Order 2005</td>
-            <td><span class="pill m">강제</span> 모든 F&B 2017~</td>
+            <td><span class="pill m">강제</span> F&B·식품 사업체 2017~</td>
             <td>영어</td>
             <td>MUIB 검사단 현장 실사</td>
             <td>참조 수준</td>
@@ -1590,7 +1593,7 @@
             <td>이집트</td>
             <td>GOVS · EOS · IS EG Halal</td>
             <td>PM Decree 35/2020 + GOVS Dec. 1/2023</td>
-            <td><span class="pill m">강제</span> 동물성 식품 수입</td>
+            <td><span class="pill pm">부분 강제</span> 육류·가금류·유제품·동물성 수입품</td>
             <td>아랍어</td>
             <td>GOVS 등록 + IS EG Halal 단독 위탁</td>
             <td>참조 수준</td>
@@ -1600,7 +1603,7 @@
     </div>
 
     <div style="margin-top:24px; font-size:11px; color: var(--ink-mute); font-family: 'IBM Plex Mono', monospace; letter-spacing:0.05em;">
-      범례 : <span class="pill m">MANDATORY</span> 강제 인증 / <span class="pill v">VOLUNTARY</span> 자율 인증 (단, 라벨·마크 사용은 인증 필수) / <span class="pill h">HARMONIZED</span> 국제표준 자국 채택
+      범례 : <span class="pill m">MANDATORY</span> 강제 / <span class="pill pm">PARTIAL</span> 부분 강제 (식품·동물성 중심) / <span class="pill v">VOLUNTARY</span> 자율 (표시·마크 사용 시 인증 필수) / <span class="pill h">HARMONIZED</span> 국제표준 자국 채택
     </div>
     <div class="section-head" style="margin-top:56px;">
       <div>
@@ -1644,7 +1647,7 @@
           </tr>
           <tr>
             <td>사우디아라비아</td>
-            <td><span class="pill v">자율</span> 권장 (돼지 금지는 강제)</td>
+            <td><span class="pill v">자율</span> 권장 · 포지셔닝·성분별 판단</td>
             <td>GSO 1943 + Cosmetic Law M/49</td>
             <td>SFDA</td>
             <td>GHAD + FASEH</td>

@@ -1,0 +1,1926 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>주요 10개국 할랄 법령 체계 ― 비교 청서 · Vol. II 비교·표준·연표 편</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;500;700;900&family=Noto+Sans+KR:wght@300;400;500;700&family=IBM+Plex+Mono:wght@400;500&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet" />
+<style>
+  :root {
+    --navy:        #15233b;
+    --navy-deep:   #0c1729;
+    --navy-mid:    #213657;
+    --navy-soft:   #2e4a72;
+    --gold:        #a07c3a;
+    --gold-soft:   #c9a661;
+    --gold-pale:   #e8d6a8;
+    --cream:       #f5efde;
+    --cream-soft:  #faf6ea;
+    --paper:       #fbf8ee;
+    --ink:         #1a1d22;
+    --ink-soft:    #3c4150;
+    --ink-mute:    #6c7081;
+    --rule:        #c9bfa3;
+    --rule-soft:   #e3dac0;
+    --crimson:     #8a2d2d;
+    --emerald:     #2c5446;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: 'Noto Sans KR', sans-serif;
+    background: var(--paper);
+    color: var(--ink);
+    line-height: 1.7;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    background-image:
+      radial-gradient(circle at 25% 15%, rgba(160,124,58,0.04) 0%, transparent 40%),
+      radial-gradient(circle at 75% 85%, rgba(21,35,59,0.03) 0%, transparent 40%);
+  }
+
+  /* Typography */
+  .display-serif { font-family: 'Noto Serif KR', serif; font-weight: 900; letter-spacing: -0.02em; }
+  .serif { font-family: 'Noto Serif KR', serif; }
+  .latin-serif { font-family: 'Cormorant Garamond', serif; }
+  .mono { font-family: 'IBM Plex Mono', monospace; }
+
+  /* Page wrapper */
+  .page {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 56px;
+  }
+
+  /* ============ HEADER ============ */
+  .masthead {
+    background: var(--navy-deep);
+    color: var(--cream);
+    padding: 24px 56px;
+    border-bottom: 1px solid var(--gold);
+    position: relative;
+    overflow: hidden;
+  }
+  .masthead::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background-image:
+      repeating-linear-gradient(
+        90deg,
+        transparent,
+        transparent 80px,
+        rgba(160,124,58,0.06) 80px,
+        rgba(160,124,58,0.06) 81px
+      );
+    pointer-events: none;
+  }
+  .masthead-inner {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+  }
+  .masthead-left {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+  }
+  .seal {
+    width: 44px;
+    height: 44px;
+    border: 1.5px solid var(--gold);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    color: var(--gold);
+    font-size: 22px;
+    position: relative;
+  }
+  .seal::after {
+    content: '';
+    position: absolute;
+    inset: 4px;
+    border: 1px solid var(--gold);
+    border-radius: 50%;
+    opacity: 0.4;
+  }
+  .masthead-meta {
+    font-size: 11px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--gold-pale);
+    line-height: 1.5;
+  }
+  .masthead-meta strong { color: var(--cream); font-weight: 500; }
+  .masthead-right {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11px;
+    color: var(--gold-pale);
+    text-align: right;
+    letter-spacing: 0.05em;
+  }
+
+  /* ============ COVER ============ */
+  .cover {
+    background: var(--navy);
+    color: var(--cream);
+    padding: 80px 56px 100px;
+    position: relative;
+    overflow: hidden;
+  }
+  .cover::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background-image:
+      linear-gradient(135deg, transparent 49.5%, rgba(160,124,58,0.08) 49.5%, rgba(160,124,58,0.08) 50.5%, transparent 50.5%),
+      linear-gradient(45deg, transparent 49.5%, rgba(160,124,58,0.04) 49.5%, rgba(160,124,58,0.04) 50.5%, transparent 50.5%);
+    background-size: 80px 80px;
+    pointer-events: none;
+    opacity: 0.6;
+  }
+  .cover-inner {
+    max-width: 1280px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+  }
+  .cover-eyebrow {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 12px;
+    letter-spacing: 0.4em;
+    text-transform: uppercase;
+    color: var(--gold-soft);
+    margin-bottom: 32px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  .cover-eyebrow::before, .cover-eyebrow::after {
+    content: '';
+    flex: 0 0 60px;
+    height: 1px;
+    background: var(--gold);
+  }
+  .cover-eyebrow::after { flex: 1; }
+
+  .cover h1 {
+    font-family: 'Noto Serif KR', serif;
+    font-weight: 900;
+    font-size: 68px;
+    line-height: 1.15;
+    letter-spacing: -0.03em;
+    margin-bottom: 28px;
+    color: var(--cream-soft);
+  }
+  .cover h1 em {
+    font-style: italic;
+    color: var(--gold-soft);
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 500;
+  }
+  .cover-subtitle {
+    font-size: 19px;
+    color: var(--gold-pale);
+    max-width: 720px;
+    line-height: 1.7;
+    margin-bottom: 56px;
+    font-weight: 300;
+  }
+  .cover-stats {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0;
+    border-top: 1px solid var(--gold);
+    border-bottom: 1px solid var(--gold);
+  }
+  .stat {
+    padding: 28px 24px;
+    border-right: 1px solid rgba(201,166,97,0.3);
+  }
+  .stat:last-child { border-right: none; }
+  .stat-num {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 56px;
+    font-weight: 500;
+    line-height: 1;
+    color: var(--gold-soft);
+    margin-bottom: 8px;
+  }
+  .stat-label {
+    font-size: 12px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--gold-pale);
+    line-height: 1.5;
+  }
+  .stat-sub {
+    font-size: 11px;
+    color: rgba(232,214,168,0.6);
+    margin-top: 4px;
+  }
+
+  /* ============ SECTION ============ */
+  section {
+    padding: 80px 0;
+  }
+  section.alt { background: var(--cream-soft); }
+  section.dark { background: var(--navy); color: var(--cream); }
+
+  .section-head {
+    margin-bottom: 56px;
+    border-bottom: 2px solid var(--navy);
+    padding-bottom: 24px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 40px;
+  }
+  section.dark .section-head { border-bottom-color: var(--gold); }
+
+  .section-num {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 14px;
+    letter-spacing: 0.3em;
+    color: var(--gold);
+    margin-bottom: 12px;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+  .section-title {
+    font-family: 'Noto Serif KR', serif;
+    font-weight: 900;
+    font-size: 40px;
+    letter-spacing: -0.02em;
+    line-height: 1.2;
+    color: var(--navy-deep);
+  }
+  section.dark .section-title { color: var(--cream); }
+  .section-tagline {
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    font-size: 18px;
+    color: var(--ink-mute);
+    text-align: right;
+    max-width: 280px;
+    line-height: 1.5;
+  }
+  section.dark .section-tagline { color: var(--gold-pale); }
+
+  /* ============ OVERVIEW (Section 1) ============ */
+  .overview-grid {
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+    gap: 60px;
+    align-items: start;
+  }
+  .overview-text p {
+    font-size: 16px;
+    line-height: 1.85;
+    color: var(--ink-soft);
+    margin-bottom: 18px;
+  }
+  .overview-text p:first-child::first-letter {
+    font-family: 'Noto Serif KR', serif;
+    font-size: 64px;
+    font-weight: 700;
+    float: left;
+    line-height: 0.9;
+    margin: 6px 12px 0 0;
+    color: var(--navy);
+  }
+  .overview-pull {
+    background: var(--navy);
+    color: var(--cream);
+    padding: 40px 36px;
+    border-left: 4px solid var(--gold);
+    position: relative;
+  }
+  .overview-pull-quote {
+    font-family: 'Noto Serif KR', serif;
+    font-size: 22px;
+    line-height: 1.5;
+    color: var(--gold-pale);
+    font-weight: 500;
+    margin-bottom: 24px;
+  }
+  .overview-pull-list {
+    border-top: 1px solid rgba(201,166,97,0.4);
+    padding-top: 20px;
+    font-size: 13px;
+    color: var(--cream-soft);
+  }
+  .overview-pull-list dt {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.2em;
+    color: var(--gold-soft);
+    text-transform: uppercase;
+    margin-top: 16px;
+    margin-bottom: 4px;
+  }
+  .overview-pull-list dt:first-child { margin-top: 0; }
+
+  /* ============ COUNTRY CARDS (Section 2) ============ */
+  .country-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+  }
+  .country-card {
+    background: white;
+    border: 1px solid var(--rule-soft);
+    padding: 32px 32px 28px;
+    position: relative;
+    transition: all 0.3s ease;
+  }
+  .country-card:hover {
+    border-color: var(--gold);
+    box-shadow: 0 8px 32px rgba(21,35,59,0.08);
+  }
+  .country-card-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid var(--rule-soft);
+  }
+  .country-name {
+    font-family: 'Noto Serif KR', serif;
+    font-weight: 700;
+    font-size: 22px;
+    color: var(--navy-deep);
+    line-height: 1.2;
+  }
+  .country-name-en {
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    font-size: 14px;
+    color: var(--ink-mute);
+    font-weight: 400;
+    margin-top: 4px;
+  }
+  .country-id {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.2em;
+    color: var(--gold);
+    background: var(--cream);
+    padding: 4px 10px;
+    border: 1px solid var(--gold-pale);
+  }
+  .country-meta {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px 20px;
+    margin-bottom: 18px;
+  }
+  .country-meta-item {
+    font-size: 12px;
+  }
+  .country-meta-label {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.18em;
+    color: var(--ink-mute);
+    text-transform: uppercase;
+    margin-bottom: 3px;
+  }
+  .country-meta-value {
+    color: var(--ink);
+    font-weight: 500;
+    font-size: 13px;
+  }
+  .country-summary {
+    font-size: 13px;
+    line-height: 1.7;
+    color: var(--ink-soft);
+    border-top: 1px dashed var(--rule);
+    padding-top: 14px;
+    margin-bottom: 14px;
+  }
+  .country-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+  .tag {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 4px 10px;
+    border: 1px solid var(--rule);
+    color: var(--ink-soft);
+    background: var(--cream-soft);
+  }
+  .tag.mandatory { background: var(--crimson); color: var(--cream); border-color: var(--crimson); }
+  .tag.voluntary { background: var(--emerald); color: var(--cream); border-color: var(--emerald); }
+  .tag.gov { background: var(--navy); color: var(--cream); border-color: var(--navy); }
+  .tag.religious { background: var(--gold); color: white; border-color: var(--gold); }
+
+  /* ============ HIERARCHY DIAGRAMS (Section 3) ============ */
+  .hierarchy-intro {
+    margin-bottom: 48px;
+    font-size: 15px;
+    color: var(--ink-soft);
+    max-width: 880px;
+    line-height: 1.85;
+  }
+  .hierarchy-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+  }
+  .hierarchy-card {
+    background: white;
+    border: 1px solid var(--rule-soft);
+    padding: 32px;
+  }
+  .hier-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    border-bottom: 2px solid var(--navy);
+    padding-bottom: 12px;
+    margin-bottom: 28px;
+  }
+  .hier-country {
+    font-family: 'Noto Serif KR', serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: var(--navy-deep);
+  }
+  .hier-num {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 32px;
+    color: var(--gold);
+    font-weight: 500;
+  }
+  .hier-tree {
+    position: relative;
+  }
+  .hier-level {
+    margin-bottom: 14px;
+    position: relative;
+    padding-left: 22px;
+  }
+  .hier-level::before {
+    content: '';
+    position: absolute;
+    left: 0; top: 14px;
+    width: 14px;
+    height: 1px;
+    background: var(--gold);
+  }
+  .hier-level::after {
+    content: '';
+    position: absolute;
+    left: 0; top: 0; bottom: -14px;
+    width: 1px;
+    background: var(--rule);
+  }
+  .hier-level:last-child::after { display: none; }
+  .hier-level-label {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.18em;
+    color: var(--gold);
+    text-transform: uppercase;
+    margin-bottom: 4px;
+  }
+  .hier-level-content {
+    font-size: 14px;
+    color: var(--ink);
+    font-weight: 500;
+    line-height: 1.55;
+  }
+  .hier-level-meta {
+    font-size: 11px;
+    color: var(--ink-mute);
+    margin-top: 2px;
+    font-style: italic;
+  }
+  .hier-level.top { padding-left: 0; }
+  .hier-level.top::before, .hier-level.top::after { display: none; }
+  .hier-level.top .hier-level-content {
+    background: var(--navy);
+    color: var(--cream);
+    padding: 12px 18px;
+    font-family: 'Noto Serif KR', serif;
+    font-size: 15px;
+    font-weight: 700;
+    border-left: 4px solid var(--gold);
+  }
+
+  /* ============ INDONESIA EXPANDED DOSSIER ============ */
+  .hierarchy-card.expanded {
+    grid-column: 1 / -1;
+    background: white;
+    border: 1px solid var(--gold-pale);
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+  }
+  .hierarchy-card.expanded::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0;
+    width: 6px;
+    bottom: 0;
+    background: linear-gradient(to bottom, var(--gold) 0%, var(--gold-soft) 50%, var(--gold) 100%);
+  }
+  .expanded-head {
+    background: var(--navy);
+    color: var(--cream);
+    padding: 28px 36px;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 32px;
+    align-items: end;
+    border-bottom: 1px solid var(--gold);
+    position: relative;
+    overflow: hidden;
+  }
+  .expanded-head::after {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background-image: repeating-linear-gradient(
+      90deg, transparent, transparent 60px,
+      rgba(160,124,58,0.05) 60px, rgba(160,124,58,0.05) 61px
+    );
+    pointer-events: none;
+  }
+  .expanded-head-left { position: relative; z-index: 1; }
+  .expanded-eyebrow {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.3em;
+    color: var(--gold-soft);
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+  .expanded-title {
+    font-family: 'Noto Serif KR', serif;
+    font-weight: 900;
+    font-size: 28px;
+    color: var(--cream-soft);
+    line-height: 1.2;
+    margin-bottom: 6px;
+  }
+  .expanded-title em {
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    color: var(--gold-soft);
+    font-weight: 500;
+    font-size: 22px;
+  }
+  .expanded-subtitle {
+    font-size: 13px;
+    color: var(--gold-pale);
+    line-height: 1.6;
+    max-width: 720px;
+  }
+  .expanded-stats {
+    display: flex;
+    gap: 24px;
+    position: relative;
+    z-index: 1;
+    border-left: 1px solid rgba(201,166,97,0.4);
+    padding-left: 32px;
+  }
+  .expanded-stat {
+    text-align: right;
+  }
+  .expanded-stat-num {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 38px;
+    font-weight: 500;
+    color: var(--gold-soft);
+    line-height: 1;
+  }
+  .expanded-stat-num span { font-size: 18px; color: var(--gold-pale); }
+  .expanded-stat-label {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.2em;
+    color: var(--gold-pale);
+    text-transform: uppercase;
+    margin-top: 4px;
+  }
+
+  /* TIER ROWS - 5단 위계 */
+  .tier-stack {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+  .tier-row {
+    display: grid;
+    grid-template-columns: 200px 1fr 110px;
+    border-bottom: 1px solid var(--rule-soft);
+    transition: background 0.2s;
+  }
+  .tier-row:last-child { border-bottom: none; }
+  .tier-row:hover { background: rgba(245,239,222,0.4); }
+
+  .tier-side {
+    background: linear-gradient(135deg, var(--navy) 0%, var(--navy-mid) 100%);
+    color: var(--cream);
+    padding: 22px 22px;
+    position: relative;
+    border-right: 3px solid var(--gold);
+  }
+  .tier-letter {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 36px;
+    font-weight: 600;
+    color: var(--gold-soft);
+    line-height: 1;
+    margin-bottom: 6px;
+  }
+  .tier-name {
+    font-family: 'Noto Serif KR', serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: var(--cream-soft);
+    line-height: 1.3;
+    margin-bottom: 4px;
+  }
+  .tier-name-en {
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    font-size: 11px;
+    color: var(--gold-pale);
+    line-height: 1.4;
+  }
+
+  .tier-body {
+    padding: 18px 24px;
+    border-right: 1px solid var(--rule-soft);
+  }
+  .tier-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .tier-list li {
+    padding: 6px 0 6px 18px;
+    position: relative;
+    border-bottom: 1px dashed var(--rule);
+    font-size: 12.5px;
+    line-height: 1.5;
+    color: var(--ink-soft);
+  }
+  .tier-list li:last-child { border-bottom: none; }
+  .tier-list li::before {
+    content: '◆';
+    position: absolute;
+    left: 0;
+    top: 8px;
+    color: var(--gold);
+    font-size: 8px;
+  }
+  .tier-list li strong {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11px;
+    font-weight: 500;
+    color: var(--navy-deep);
+    margin-right: 6px;
+    letter-spacing: 0.02em;
+  }
+  .tier-list li em {
+    font-style: normal;
+    color: var(--ink-mute);
+    font-size: 11.5px;
+  }
+  .tier-list li.priority {
+    background: linear-gradient(90deg, rgba(160,124,58,0.06) 0%, transparent 100%);
+    padding-left: 22px;
+  }
+  .tier-list li.priority::before {
+    content: '★';
+    color: var(--gold);
+    font-size: 10px;
+    top: 7px;
+  }
+  .tier-list li.priority strong { color: var(--gold); }
+
+  .pg-badge {
+    display: inline-block;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.05em;
+    background: var(--cream);
+    color: var(--gold);
+    padding: 1px 6px;
+    border: 1px solid var(--gold-pale);
+    margin-left: 6px;
+    vertical-align: 1px;
+  }
+  .pg-badge.verified {
+    background: var(--emerald);
+    color: var(--cream);
+    border-color: var(--emerald);
+  }
+  .pg-badge.verified::before { content: '✓ '; }
+
+  .tier-tally {
+    background: var(--cream-soft);
+    padding: 18px 14px;
+    border-left: 1px solid var(--rule-soft);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 6px;
+  }
+  .tier-tally-num {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 32px;
+    color: var(--gold);
+    font-weight: 500;
+    line-height: 1;
+  }
+  .tier-tally-num span { font-size: 18px; }
+  .tier-tally-label {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.18em;
+    color: var(--ink-mute);
+    text-transform: uppercase;
+  }
+  .tier-tally-pages {
+    font-size: 10.5px;
+    color: var(--ink-soft);
+    border-top: 1px dashed var(--rule);
+    padding-top: 6px;
+    width: 100%;
+  }
+  .tier-tally-pages strong {
+    color: var(--navy-deep);
+    font-family: 'IBM Plex Mono', monospace;
+  }
+
+  .tier-row.totals {
+    background: var(--navy-deep);
+    color: var(--cream);
+    border-bottom: none;
+  }
+  .tier-row.totals:hover { background: var(--navy-deep); }
+  .tier-row.totals .tier-side {
+    background: var(--navy-deep);
+    border-right-color: var(--gold-soft);
+  }
+  .tier-row.totals .tier-letter {
+    font-size: 22px;
+    color: var(--gold-soft);
+  }
+  .tier-row.totals .tier-name { color: var(--gold-soft); }
+  .tier-row.totals .tier-body {
+    color: var(--gold-pale);
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    border-right-color: rgba(201,166,97,0.2);
+  }
+  .tier-row.totals .tier-tally {
+    background: var(--navy-deep);
+    border-left-color: rgba(201,166,97,0.2);
+  }
+  .tier-row.totals .tier-tally-num { color: var(--gold-soft); }
+  .tier-row.totals .tier-tally-label { color: var(--gold-pale); }
+  .tier-row.totals .tier-tally-pages {
+    color: var(--gold-pale);
+    border-top-color: rgba(201,166,97,0.2);
+  }
+  .tier-row.totals .tier-tally-pages strong { color: var(--cream-soft); }
+
+  /* INDO EXPANDED FOOTER NOTES */
+  .expanded-footer {
+    background: var(--cream);
+    padding: 24px 36px;
+    border-top: 1px solid var(--gold-pale);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 28px;
+  }
+  .ef-card {
+    border-left: 3px solid var(--gold);
+    padding-left: 16px;
+  }
+  .ef-icon {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 22px;
+    color: var(--gold);
+    line-height: 1;
+    margin-bottom: 4px;
+    font-weight: 600;
+  }
+  .ef-title {
+    font-family: 'Noto Serif KR', serif;
+    font-weight: 700;
+    font-size: 13px;
+    color: var(--navy-deep);
+    margin-bottom: 6px;
+  }
+  .ef-body {
+    font-size: 12px;
+    color: var(--ink-soft);
+    line-height: 1.6;
+  }
+  .ef-body strong { color: var(--navy-deep); }
+
+  /* ============ COMPARE TABLE (Section 4) ============ */
+  .compare-wrap {
+    overflow-x: auto;
+    border: 1px solid var(--rule);
+    background: white;
+  }
+  table.compare {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+    min-width: 1100px;
+  }
+  table.compare thead {
+    background: var(--navy);
+    color: var(--cream);
+  }
+  table.compare th {
+    text-align: left;
+    padding: 16px 14px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: 0.05em;
+    border-right: 1px solid var(--navy-mid);
+    vertical-align: top;
+  }
+  table.compare th:first-child {
+    background: var(--navy-deep);
+    width: 130px;
+  }
+  table.compare th:last-child { border-right: none; }
+  table.compare td {
+    padding: 14px;
+    border-bottom: 1px solid var(--rule-soft);
+    border-right: 1px solid var(--rule-soft);
+    vertical-align: top;
+    color: var(--ink-soft);
+    line-height: 1.5;
+  }
+  table.compare td:last-child { border-right: none; }
+  table.compare td:first-child {
+    background: var(--cream-soft);
+    font-family: 'Noto Serif KR', serif;
+    font-weight: 700;
+    color: var(--navy-deep);
+    border-right: 2px solid var(--gold);
+  }
+  table.compare tr:hover td:not(:first-child) { background: rgba(245,239,222,0.4); }
+  .pill {
+    display: inline-block;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.1em;
+    padding: 3px 8px;
+    text-transform: uppercase;
+    border-radius: 2px;
+  }
+  .pill.m { background: var(--crimson); color: var(--cream); }
+  .pill.v { background: var(--emerald); color: var(--cream); }
+  .pill.h { background: var(--gold); color: white; }
+
+  /* ============ INTL STANDARDS (Section 5) ============ */
+  .smiic-wrap {
+    background: var(--navy-deep);
+    color: var(--cream);
+    padding: 48px;
+    position: relative;
+    border-left: 4px solid var(--gold);
+  }
+  .smiic-grid {
+    display: grid;
+    grid-template-columns: 1fr 1.4fr;
+    gap: 60px;
+    align-items: start;
+  }
+  .smiic-left h3 {
+    font-family: 'Noto Serif KR', serif;
+    font-size: 26px;
+    color: var(--gold-soft);
+    margin-bottom: 16px;
+    font-weight: 700;
+    line-height: 1.3;
+  }
+  .smiic-left p {
+    font-size: 14px;
+    color: var(--gold-pale);
+    line-height: 1.8;
+    margin-bottom: 12px;
+  }
+  .smiic-stats {
+    margin-top: 28px;
+    padding-top: 24px;
+    border-top: 1px solid rgba(201,166,97,0.3);
+  }
+  .smiic-stat {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 10px 0;
+    border-bottom: 1px dotted rgba(201,166,97,0.2);
+    font-size: 12px;
+  }
+  .smiic-stat-label { color: var(--gold-pale); letter-spacing: 0.05em; }
+  .smiic-stat-num {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 22px;
+    color: var(--gold-soft);
+    font-weight: 500;
+  }
+
+  .standards-list { display: flex; flex-direction: column; gap: 12px; }
+  .standard-row {
+    display: grid;
+    grid-template-columns: 130px 1fr auto;
+    gap: 20px;
+    padding: 14px 18px;
+    background: rgba(232,214,168,0.05);
+    border-left: 2px solid var(--gold);
+    align-items: center;
+  }
+  .standard-code {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 12px;
+    color: var(--gold-soft);
+    letter-spacing: 0.05em;
+    font-weight: 500;
+  }
+  .standard-name {
+    font-size: 13px;
+    color: var(--cream-soft);
+    line-height: 1.4;
+  }
+  .standard-name em {
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    color: var(--gold-pale);
+    font-size: 12px;
+    display: block;
+    margin-top: 2px;
+  }
+  .standard-adopt {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px;
+    color: var(--gold);
+    letter-spacing: 0.1em;
+  }
+
+  /* ============ CERT FLOW (Section 6) ============ */
+  .flow-intro {
+    margin-bottom: 40px;
+    font-size: 15px;
+    color: var(--ink-soft);
+    max-width: 880px;
+    line-height: 1.85;
+  }
+  .flow-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 0;
+    position: relative;
+    background: white;
+    border: 1px solid var(--rule);
+    padding: 36px 12px;
+  }
+  .flow-step {
+    text-align: center;
+    padding: 0 8px;
+    position: relative;
+  }
+  .flow-step:not(:last-child)::after {
+    content: '→';
+    position: absolute;
+    right: -8px;
+    top: 24px;
+    font-size: 18px;
+    color: var(--gold);
+    font-family: 'Cormorant Garamond', serif;
+  }
+  .flow-num {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 36px;
+    color: var(--gold);
+    line-height: 1;
+    font-weight: 500;
+    margin-bottom: 8px;
+  }
+  .flow-title {
+    font-family: 'Noto Serif KR', serif;
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--navy-deep);
+    margin-bottom: 6px;
+    line-height: 1.3;
+  }
+  .flow-desc {
+    font-size: 11px;
+    color: var(--ink-mute);
+    line-height: 1.5;
+  }
+
+  /* Variation table */
+  .variation-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    margin-top: 36px;
+  }
+  .variation-card {
+    background: white;
+    border: 1px solid var(--rule);
+    padding: 24px 28px;
+  }
+  .variation-card h4 {
+    font-family: 'Noto Serif KR', serif;
+    font-size: 16px;
+    color: var(--navy-deep);
+    margin-bottom: 12px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--gold-pale);
+  }
+  .variation-card ul { list-style: none; font-size: 13px; line-height: 1.7; color: var(--ink-soft); }
+  .variation-card li {
+    padding-left: 18px;
+    position: relative;
+    margin-bottom: 4px;
+  }
+  .variation-card li::before {
+    content: '◆';
+    position: absolute;
+    left: 0;
+    color: var(--gold);
+    font-size: 9px;
+    top: 4px;
+  }
+  .variation-card li strong { color: var(--navy-deep); }
+
+  /* ============ TIMELINE (Section 7) ============ */
+  .timeline {
+    position: relative;
+    margin-top: 24px;
+    padding-left: 0;
+  }
+  .timeline::before {
+    content: '';
+    position: absolute;
+    left: 110px;
+    top: 0;
+    bottom: 0;
+    width: 1px;
+    background: var(--gold);
+  }
+  .tl-item {
+    display: grid;
+    grid-template-columns: 110px 30px 1fr;
+    gap: 0;
+    padding: 14px 0;
+    align-items: start;
+    position: relative;
+  }
+  .tl-year {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 26px;
+    color: var(--navy-deep);
+    text-align: right;
+    padding-right: 20px;
+    font-weight: 500;
+    line-height: 1.1;
+  }
+  .tl-marker {
+    width: 11px;
+    height: 11px;
+    background: var(--gold);
+    border: 2px solid var(--paper);
+    box-shadow: 0 0 0 1px var(--gold);
+    margin: 8px auto 0;
+    border-radius: 50%;
+    position: relative;
+    z-index: 1;
+  }
+  .tl-content { padding-left: 20px; }
+  .tl-country {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.15em;
+    color: var(--gold);
+    text-transform: uppercase;
+    margin-bottom: 2px;
+  }
+  .tl-event {
+    font-family: 'Noto Serif KR', serif;
+    font-size: 14px;
+    color: var(--navy-deep);
+    font-weight: 500;
+    line-height: 1.5;
+  }
+  .tl-note { font-size: 12px; color: var(--ink-mute); margin-top: 2px; }
+
+  /* ============ FOOTER ============ */
+  footer {
+    background: var(--navy-deep);
+    color: var(--gold-pale);
+    padding: 56px 56px 32px;
+    border-top: 3px double var(--gold);
+  }
+  .footer-inner {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr;
+    gap: 60px;
+    margin-bottom: 40px;
+  }
+  .footer-brand {
+    font-family: 'Noto Serif KR', serif;
+    font-size: 18px;
+    color: var(--cream);
+    margin-bottom: 12px;
+  }
+  .footer-brand-en {
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    color: var(--gold-soft);
+    font-size: 14px;
+    margin-bottom: 16px;
+  }
+  .footer-text {
+    font-size: 12px;
+    line-height: 1.7;
+    color: rgba(232,214,168,0.7);
+  }
+  .footer-col h5 {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.2em;
+    color: var(--gold-soft);
+    text-transform: uppercase;
+    margin-bottom: 14px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid rgba(201,166,97,0.3);
+  }
+  .footer-col ul { list-style: none; font-size: 12px; line-height: 1.9; color: rgba(232,214,168,0.7); }
+  .footer-bottom {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding-top: 24px;
+    border-top: 1px solid rgba(201,166,97,0.2);
+    display: flex;
+    justify-content: space-between;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px;
+    color: rgba(232,214,168,0.5);
+    letter-spacing: 0.1em;
+  }
+
+  /* ============ RESPONSIVE ============ */
+  @media (max-width: 980px) {
+    .page { padding: 0 24px; }
+    .cover { padding: 56px 24px 72px; }
+    .cover h1 { font-size: 44px; }
+    .cover-stats { grid-template-columns: repeat(2, 1fr); }
+    .stat { border-right: none; border-bottom: 1px solid rgba(201,166,97,0.3); }
+    .overview-grid, .country-grid, .hierarchy-grid, .smiic-grid, .variation-grid {
+      grid-template-columns: 1fr;
+    }
+    .flow-grid { grid-template-columns: repeat(2, 1fr); gap: 24px; }
+    .flow-step::after { display: none; }
+    .footer-inner { grid-template-columns: 1fr; gap: 32px; }
+    .section-head { flex-direction: column; align-items: flex-start; }
+    .section-tagline { text-align: left; }
+
+    /* Indonesia expanded card mobile */
+    .expanded-head { grid-template-columns: 1fr; gap: 18px; padding: 22px 24px; }
+    .expanded-stats { border-left: none; padding-left: 0; padding-top: 18px; border-top: 1px solid rgba(201,166,97,0.3); }
+    .expanded-title { font-size: 22px; }
+    .tier-row { grid-template-columns: 1fr; }
+    .tier-side { border-right: none; border-bottom: 3px solid var(--gold); padding: 14px 22px; display: flex; align-items: center; gap: 14px; }
+    .tier-letter { font-size: 26px; margin-bottom: 0; }
+    .tier-body { border-right: none; border-bottom: 1px solid var(--rule-soft); }
+    .tier-tally { border-left: none; flex-direction: row; padding: 12px 18px; gap: 14px; justify-content: space-between; }
+    .tier-tally-pages { border-top: none; border-left: 1px dashed var(--rule); padding: 0 0 0 14px; width: auto; }
+    .tier-row.totals .tier-body { font-size: 14px; padding: 14px 22px; }
+    .expanded-footer { grid-template-columns: 1fr; padding: 22px 24px; gap: 20px; }
+  }
+  /* ============ PAGE NAVIGATION ============ */
+  .page-nav-band {
+    background: var(--cream);
+    border-top: 1px solid var(--rule);
+    border-bottom: 1px solid var(--rule);
+    padding: 36px 0;
+  }
+  .page-nav {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 56px;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    gap: 40px;
+    align-items: center;
+  }
+  .pn-cell {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+  .pn-cell.left { align-items: flex-start; }
+  .pn-cell.right { align-items: flex-end; text-align: right; }
+  .pn-label {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.3em;
+    color: var(--ink-mute);
+    text-transform: uppercase;
+  }
+  .pn-link {
+    display: inline-flex;
+    align-items: baseline;
+    gap: 14px;
+    text-decoration: none;
+    color: var(--navy-deep);
+    font-family: 'Noto Serif KR', serif;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 1.3;
+    border-bottom: 1px solid transparent;
+    padding-bottom: 4px;
+    transition: all 0.2s ease;
+  }
+  .pn-link:hover {
+    color: var(--gold);
+    border-bottom-color: var(--gold);
+  }
+  .pn-arrow {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 32px;
+    font-weight: 500;
+    color: var(--gold);
+    line-height: 1;
+  }
+  .pn-text-en {
+    display: block;
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    font-size: 14px;
+    color: var(--ink-mute);
+    font-weight: 400;
+    margin-top: 4px;
+    letter-spacing: 0.01em;
+  }
+  .pn-disabled {
+    color: var(--ink-mute);
+    opacity: 0.4;
+    cursor: default;
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .pn-indicator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    padding: 0 24px;
+    border-left: 1px solid var(--rule);
+    border-right: 1px solid var(--rule);
+  }
+  .pn-indicator-num {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 38px;
+    font-weight: 600;
+    color: var(--gold);
+    line-height: 1;
+    letter-spacing: 0.02em;
+  }
+  .pn-indicator-num span {
+    color: var(--ink-mute);
+    font-weight: 400;
+    margin: 0 4px;
+  }
+  .pn-indicator-label {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.25em;
+    color: var(--ink-mute);
+    text-transform: uppercase;
+  }
+  
+  /* ============ PAGE 2 INTRO COVER (lighter than main cover) ============ */
+  .cover.cover-vol2 {
+    padding: 60px 56px 70px;
+  }
+  .cover.cover-vol2 h1 {
+    font-size: 56px;
+  }
+  .cover.cover-vol2 .cover-subtitle {
+    margin-bottom: 32px;
+  }
+  .cover.cover-vol2 .cover-stats {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  
+  /* Volume marker on masthead-right */
+  .vol-marker {
+    display: inline-block;
+    padding: 3px 10px;
+    border: 1px solid var(--gold);
+    color: var(--gold);
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.2em;
+    margin-top: 6px;
+  }
+  
+  @media (max-width: 980px) {
+    .page-nav { grid-template-columns: 1fr; gap: 24px; padding: 0 24px; text-align: center; }
+    .pn-cell.right, .pn-cell.left { align-items: center; text-align: center; }
+    .pn-indicator { border: 1px solid var(--rule); padding: 12px 24px; flex-direction: row; gap: 14px; }
+  }
+</style>
+</head>
+<body>
+<!-- ============ MASTHEAD ============ -->
+<header class="masthead">
+  <div class="masthead-inner">
+    <div class="masthead-left">
+      <div class="seal">H</div>
+      <div class="masthead-meta">
+        <div><strong>HALAL REGULATORY ATLAS</strong></div>
+        <div>주요국 할랄 법령 비교 청서 · 2026</div>
+      </div>
+    </div>
+    <div class="masthead-right">
+      Vol. 01 · No. 01<br/>
+      Reference Edition
+      <div class="vol-marker">VOL. II — COMPARATIVE</div>
+    </div>
+  </div>
+</header>
+
+<!-- ============ COVER (Volume II — compact) ============ -->
+<div class="cover cover-vol2">
+  <div class="cover-inner">
+    <div class="cover-eyebrow">comparative compendium · vol. II</div>
+    <h1>비교 매트릭스 · 국제표준<br/>인증 절차 · 입법 연표<br/><em>Vol. II — Cross-cutting Views</em></h1>
+    <p class="cover-subtitle">
+      Vol. I에서 정리한 국가별 법령 체계를 단일 매트릭스에서 비교하고, 사실상 국제 공통 분모인 OIC/SMIIC 표준 체계, 인증 절차의 6단 흐름, 그리고 2014년 이후의 주요 입법·제도 변화 연표를 제공합니다. 진출 전략 수립의 후행 자료로 활용 가능합니다.
+    </p>
+
+    <div class="cover-stats">
+      <div class="stat">
+        <div class="stat-num">7</div>
+        <div class="stat-label">비교 항목</div>
+        <div class="stat-sub">six axes + 1</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num">7</div>
+        <div class="stat-label">OIC/SMIIC 핵심 표준</div>
+        <div class="stat-sub">SMIIC 1, 2, 4, 17, 23, 24, 50</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num">6</div>
+        <div class="stat-label">인증 절차 단계</div>
+        <div class="stat-sub">application → surveillance</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num">15</div>
+        <div class="stat-label">연표 항목</div>
+        <div class="stat-sub">1966 — 2026</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ============ SECTION 4 : COMPARE TABLE ============ -->
+<section class="alt">
+  <div class="page">
+    <div class="section-head">
+      <div>
+        <div class="section-num">— IV — Comparative matrix</div>
+        <h2 class="section-title">국가별 핵심 비교표</h2>
+      </div>
+      <div class="section-tagline">six axes of<br/>regulatory variation</div>
+    </div>
+
+    <div class="compare-wrap">
+      <table class="compare">
+        <thead>
+          <tr>
+            <th>국가</th>
+            <th>주관기관</th>
+            <th>모법 / 핵심 법령</th>
+            <th>강제력</th>
+            <th>정본 언어</th>
+            <th>외국 인증기관 인정</th>
+            <th>OIC/SMIIC 채택</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>인도네시아</td>
+            <td>BPJPH + MUI</td>
+            <td>UU 33/2014 + PP 42/2024</td>
+            <td><span class="pill m">강제</span> 식음료 2024.10.17~</td>
+            <td>인도네시아어</td>
+            <td>SHLN 등록제 (BPJPH 인정)</td>
+            <td>참조 수준</td>
+          </tr>
+          <tr>
+            <td>아랍에미리트</td>
+            <td>MOIAT (구 ESMA)</td>
+            <td>Cabinet Resolution 10/2014</td>
+            <td><span class="pill m">강제</span> 라벨 부착 시</td>
+            <td>아랍어 (영문 병기)</td>
+            <td>MOIAT 등록제 (구 ESMA)</td>
+            <td><span class="pill h">자국 표준 채택</span></td>
+          </tr>
+          <tr>
+            <td>사우디아라비아</td>
+            <td>SFDA / Saudi Halal Center</td>
+            <td>식품법 M/1 + SFDA 결정 + GSO 표준</td>
+            <td><span class="pill m">강제</span> 동물성·가공식품</td>
+            <td>아랍어</td>
+            <td>SHC 인정 목록제</td>
+            <td>GSO 경유 채택 (SFDA.FD)</td>
+          </tr>
+          <tr>
+            <td>말레이시아</td>
+            <td>JAKIM (이슬람개발부)</td>
+            <td>Trade Descriptions Act 2011 + 2개 Order</td>
+            <td><span class="pill v">자율</span> 단, 표시 시 인증 필수</td>
+            <td>영어 (말레이어 병행)</td>
+            <td>FHCB 등록제 (myehalal)</td>
+            <td>참조 수준</td>
+          </tr>
+          <tr>
+            <td>튀르키예</td>
+            <td>HAK (할랄인정청)</td>
+            <td>Law 7060/2017 + Law 7408/2022</td>
+            <td><span class="pill v">자율</span> 단, 표시 시 SMIIC 의무</td>
+            <td>튀르키예어 (영문 제공)</td>
+            <td>HAK 인정 또는 MRA</td>
+            <td><span class="pill h">의무 적용 (Law 7408)</span></td>
+          </tr>
+          <tr>
+            <td>브루나이</td>
+            <td>MUIB / BKMH</td>
+            <td>Halal Meat Act + HCHL Order 2005</td>
+            <td><span class="pill m">강제</span> 모든 F&B 2017~</td>
+            <td>영어</td>
+            <td>MUIB 검사단 현장 실사</td>
+            <td>참조 수준</td>
+          </tr>
+          <tr>
+            <td>싱가포르</td>
+            <td>MUIS</td>
+            <td>AMLA 1966 §88A 외</td>
+            <td><span class="pill v">자율</span> 단, 마크 사용은 인증 필수</td>
+            <td>영어</td>
+            <td>FHCB 인정 (88AA)</td>
+            <td>참조 수준</td>
+          </tr>
+          <tr>
+            <td>파키스탄</td>
+            <td>PHA + PSQCA</td>
+            <td>PHA Act 2016 + Regulations 2021</td>
+            <td><span class="pill v">자율</span> 단, 수출 확대 추세</td>
+            <td>영어</td>
+            <td>FHCB 등록제</td>
+            <td>PS 표준에 다수 반영</td>
+          </tr>
+          <tr>
+            <td>태국</td>
+            <td>CICOT (중앙이슬람위원회)</td>
+            <td>Admin. of Islamic Org. Act B.E. 2540</td>
+            <td><span class="pill v">자율</span></td>
+            <td>태국어</td>
+            <td>FHCB 목록제 (134개사)</td>
+            <td>참조 수준</td>
+          </tr>
+          <tr>
+            <td>이집트</td>
+            <td>GOVS · EOS · IS EG Halal</td>
+            <td>PM Decree 35/2020 + GOVS Dec. 1/2023</td>
+            <td><span class="pill m">강제</span> 동물성 식품 수입</td>
+            <td>아랍어</td>
+            <td>GOVS 등록 + IS EG Halal 단독 위탁</td>
+            <td>참조 수준</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div style="margin-top:24px; font-size:11px; color: var(--ink-mute); font-family: 'IBM Plex Mono', monospace; letter-spacing:0.05em;">
+      범례 : <span class="pill m">MANDATORY</span> 강제 인증 / <span class="pill v">VOLUNTARY</span> 자율 인증 (단, 라벨·마크 사용은 인증 필수) / <span class="pill h">HARMONIZED</span> 국제표준 자국 채택
+    </div>
+  </div>
+</section>
+
+<!-- ============ SECTION 5 : OIC/SMIIC ============ -->
+<section class="dark">
+  <div class="page">
+    <div class="section-head">
+      <div>
+        <div class="section-num">— V — Common framework</div>
+        <h2 class="section-title">국제 모태 표준 — OIC / SMIIC</h2>
+      </div>
+      <div class="section-tagline">the convergent layer<br/>across jurisdictions</div>
+    </div>
+
+    <div class="smiic-wrap">
+      <div class="smiic-grid">
+        <div class="smiic-left">
+          <h3>이슬람권 표준계량연구소<br/><em class="latin-serif">Standards and Metrology Institute<br/>for Islamic Countries</em></h3>
+          <p>OIC(이슬람협력기구) 산하 국제 표준화 기구로, 57개 회원국의 할랄 표준을 조화시키는 역할을 합니다. 본부는 이스탄불에 있으며, SMIIC 표준은 회원국 다수의 자국 표준 모태로 채택되고 있습니다.</p>
+          <p>본 청서가 다루는 10개국 중 튀르키예는 의무 채택, UAE는 자국 표준으로 통합 채택, 나머지 국가는 자국 표준 제·개정 시 참조하는 방식으로 SMIIC를 활용합니다.</p>
+
+          <div class="smiic-stats">
+            <div class="smiic-stat">
+              <div class="smiic-stat-label">설립연도</div>
+              <div class="smiic-stat-num">2010</div>
+            </div>
+            <div class="smiic-stat">
+              <div class="smiic-stat-label">회원국</div>
+              <div class="smiic-stat-num">42</div>
+            </div>
+            <div class="smiic-stat">
+              <div class="smiic-stat-label">발간 표준</div>
+              <div class="smiic-stat-num">60+</div>
+            </div>
+            <div class="smiic-stat">
+              <div class="smiic-stat-label">정본 언어</div>
+              <div class="smiic-stat-num" style="font-size:14px; padding-top:8px;">English</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="standards-list">
+          <div class="standard-row">
+            <div class="standard-code">OIC/SMIIC 1:2019</div>
+            <div class="standard-name">할랄 식품 일반 요건<em>General Requirements for Halal Food</em></div>
+            <div class="standard-adopt">CORE</div>
+          </div>
+          <div class="standard-row">
+            <div class="standard-code">OIC/SMIIC 2:2019</div>
+            <div class="standard-name">할랄 인증기관 적합성평가 요건<em>Conformity Assessment — Halal Certification Bodies</em></div>
+            <div class="standard-adopt">CORE</div>
+          </div>
+          <div class="standard-row">
+            <div class="standard-code">OIC/SMIIC 3</div>
+            <div class="standard-name">할랄 인정기관 일반 요건<em>Halal Accreditation Body Requirements</em></div>
+            <div class="standard-adopt">—</div>
+          </div>
+          <div class="standard-row">
+            <div class="standard-code">OIC/SMIIC 5</div>
+            <div class="standard-name">할랄 심사 가이드라인<em>Guidelines for Bodies Providing Halal Audits</em></div>
+            <div class="standard-adopt">—</div>
+          </div>
+          <div class="standard-row">
+            <div class="standard-code">OIC/SMIIC 9</div>
+            <div class="standard-name">할랄 도살 일반 요건<em>General Requirements for Halal Slaughtering</em></div>
+            <div class="standard-adopt">—</div>
+          </div>
+          <div class="standard-row">
+            <div class="standard-code">OIC/SMIIC 17</div>
+            <div class="standard-name">할랄 화장품 일반 요건<em>General Requirements for Halal Cosmetics</em></div>
+            <div class="standard-adopt">—</div>
+          </div>
+          <div class="standard-row">
+            <div class="standard-code">OIC/SMIIC 19</div>
+            <div class="standard-name">할랄 의약품 일반 요건<em>General Requirements for Halal Pharmaceuticals</em></div>
+            <div class="standard-adopt">—</div>
+          </div>
+          <div class="standard-row">
+            <div class="standard-code">OIC/SMIIC 24</div>
+            <div class="standard-name">할랄 물류 — 운송·보관·소매<em>Halal Logistics</em></div>
+            <div class="standard-adopt">—</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SECTION 6 : CERT FLOW ============ -->
+<section>
+  <div class="page">
+    <div class="section-head">
+      <div>
+        <div class="section-num">— VI — Process</div>
+        <h2 class="section-title">공통 인증 절차 및 국가별 변형</h2>
+      </div>
+      <div class="section-tagline">the canonical<br/>six-step pipeline</div>
+    </div>
+
+    <p class="flow-intro">
+      세부 절차는 국가마다 상이하나, 대부분의 인증 체계는 다음 6단계 골격을 공유합니다. 그 위에 각국 특유의 변형(파트와 발급, 입회 도살, 디지털 인증서, 단독 위탁법인 등)이 추가됩니다.
+    </p>
+
+    <div class="flow-grid">
+      <div class="flow-step">
+        <div class="flow-num">01</div>
+        <div class="flow-title">신청</div>
+        <div class="flow-desc">Application<br/>온라인 포털 신청<br/>(MYeHALAL · SIHALAL 등)</div>
+      </div>
+      <div class="flow-step">
+        <div class="flow-num">02</div>
+        <div class="flow-title">서류 심사</div>
+        <div class="flow-desc">Documentary Review<br/>원료·공정·HAS 매뉴얼<br/>적격성 검토</div>
+      </div>
+      <div class="flow-step">
+        <div class="flow-num">03</div>
+        <div class="flow-title">현장 심사</div>
+        <div class="flow-desc">On-site Audit<br/>사업장 실사 ·<br/>샘플 채취·시험</div>
+      </div>
+      <div class="flow-step">
+        <div class="flow-num">04</div>
+        <div class="flow-title">파트와·심의</div>
+        <div class="flow-desc">Fatwa / Review<br/>종교위원회 심의<br/>(인도네시아·말레이시아·태국 등)</div>
+      </div>
+      <div class="flow-step">
+        <div class="flow-num">05</div>
+        <div class="flow-title">인증서 발급</div>
+        <div class="flow-desc">Certificate Issuance<br/>인증번호·로고 부여<br/>유효기간 1~4년</div>
+      </div>
+      <div class="flow-step">
+        <div class="flow-num">06</div>
+        <div class="flow-title">사후 관리</div>
+        <div class="flow-desc">Surveillance<br/>정기 갱신 심사·<br/>이상 시 정지·취소</div>
+      </div>
+    </div>
+
+    <div class="variation-grid">
+      <div class="variation-card">
+        <h4>주요 국가별 변형 ① — 종교 심의 단계</h4>
+        <ul>
+          <li><strong>인도네시아</strong> — MUI(울라마협의회) 파트와 발급이 BPJPH 인증서 발급 전제 조건</li>
+          <li><strong>말레이시아</strong> — JAKIM 내 Fatwa Committee 심의, 종교 책임자 면담 포함</li>
+          <li><strong>태국</strong> — CICOT 산하 Halal Committee 심의 후 셰이쿨이슬람 명의 발급</li>
+          <li><strong>브루나이</strong> — MUIB 본회의 의결 필수, 단순 행정 결정 불가</li>
+        </ul>
+      </div>
+      <div class="variation-card">
+        <h4>주요 국가별 변형 ② — 외국 사업장 심사</h4>
+        <ul>
+          <li><strong>브루나이</strong> — MUIB 감독관 2인 입회 도살 (수입 할랄육)</li>
+          <li><strong>인도네시아</strong> — SHLN 외국인증 등록제, BPJPH 인정 FHCB 발급분만 인정</li>
+          <li><strong>이집트</strong> — IS EG Halal(현 Halal-ALQAHIRAH) 단독 위탁 방식, 감독관 상주</li>
+          <li><strong>사우디</strong> — SHC 등록 FHCB만 인정, 매년 적격성 재평가</li>
+        </ul>
+      </div>
+      <div class="variation-card">
+        <h4>주요 국가별 변형 ③ — 디지털·신기술 도입</h4>
+        <ul>
+          <li><strong>싱가포르</strong> — 2025.10부 디지털 할랄 인증서·QR코드 도입</li>
+          <li><strong>인도네시아</strong> — SIHALAL 통합 포털, Self-declare(소상공인 자가신고)</li>
+          <li><strong>말레이시아</strong> — MYeHALAL 온라인 신청 의무화</li>
+          <li><strong>UAE</strong> — Halal National Mark 단일 라벨, 디지털 등록부</li>
+        </ul>
+      </div>
+      <div class="variation-card">
+        <h4>주요 국가별 변형 ④ — 유효기간 및 갱신</h4>
+        <ul>
+          <li><strong>싱가포르·말레이시아·UAE</strong> — 1~2년 (정기 갱신 심사 필수)</li>
+          <li><strong>인도네시아</strong> — 4년 (단, 원료·공정 변경 시 즉시 재심사)</li>
+          <li><strong>브루나이</strong> — 인증 1~2년 / 라벨 허가(permit)는 평생</li>
+          <li><strong>태국</strong> — 1년 (매년 갱신, 수수료 재납부)</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SECTION 7 : TIMELINE ============ -->
+<section class="alt">
+  <div class="page">
+    <div class="section-head">
+      <div>
+        <div class="section-num">— VII — Chronology</div>
+        <h2 class="section-title">주요 입법·제도 변화 연표</h2>
+      </div>
+      <div class="section-tagline">recent shifts in<br/>halal regulation</div>
+    </div>
+
+    <div class="timeline">
+      <div class="tl-item">
+        <div class="tl-year">1966</div>
+        <div class="tl-marker"></div>
+        <div class="tl-content">
+          <div class="tl-country">싱가포르</div>
+          <div class="tl-event">Administration of Muslim Law Act 제정</div>
+          <div class="tl-note">MUIS 설립 근거. §88A 할랄 인증 권한 부여는 후속 개정</div>
+        </div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-year">1997</div>
+        <div class="tl-marker"></div>
+        <div class="tl-content">
+          <div class="tl-country">태국</div>
+          <div class="tl-event">Administration of Islamic Organizations Act B.E. 2540</div>
+          <div class="tl-note">CICOT 모법. 이후 B.E. 2558 규정으로 할랄 행정 체계화</div>
+        </div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-year">1998</div>
+        <div class="tl-marker"></div>
+        <div class="tl-content">
+          <div class="tl-country">브루나이</div>
+          <div class="tl-event">Halal Meat Act (Cap. 183) 제정</div>
+        </div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-year">2005</div>
+        <div class="tl-marker"></div>
+        <div class="tl-content">
+          <div class="tl-country">브루나이</div>
+          <div class="tl-event">Halal Certificate and Halal Label Order (S 39/05)</div>
+          <div class="tl-note">2008년부 시행, 2017·2020년 개정으로 강제 적용 확대</div>
+        </div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-year">2010</div>
+        <div class="tl-marker"></div>
+        <div class="tl-content">
+          <div class="tl-country">국제 / OIC</div>
+          <div class="tl-event">SMIIC 정식 출범 (이스탄불)</div>
+        </div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-year">2011</div>
+        <div class="tl-marker"></div>
+        <div class="tl-content">
+          <div class="tl-country">말레이시아</div>
+          <div class="tl-event">Trade Descriptions Act 2011 + 2개 Order</div>
+          <div class="tl-note">JAKIM 단일 인증 체제 법적 확립</div>
+        </div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-year">2014</div>
+        <div class="tl-marker"></div>
+        <div class="tl-content">
+          <div class="tl-country">인도네시아 · UAE</div>
+          <div class="tl-event">UU 33/2014 (인도네시아) · Cabinet Decree 10/2014 (UAE)</div>
+          <div class="tl-note">양국 모두 강제 인증 체제 입법 기점</div>
+        </div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-year">2016</div>
+        <div class="tl-marker"></div>
+        <div class="tl-content">
+          <div class="tl-country">파키스탄</div>
+          <div class="tl-event">Pakistan Halal Authority Act 2016</div>
+        </div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-year">2017</div>
+        <div class="tl-marker"></div>
+        <div class="tl-content">
+          <div class="tl-country">튀르키예 · 인도네시아 · 브루나이</div>
+          <div class="tl-event">HAK 설립법 7060 · BPJPH 출범 · 브루나이 강제 인증 확대</div>
+          <div class="tl-note">3개국 동시 입법·시행 — 글로벌 강제화 흐름의 전환점</div>
+        </div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-year">2020</div>
+        <div class="tl-marker"></div>
+        <div class="tl-content">
+          <div class="tl-country">이집트</div>
+          <div class="tl-event">PM Decree 35/2020 — IS EG Halal 설립</div>
+          <div class="tl-note">단독 위탁 인증법인 모델 도입</div>
+        </div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-year">2022</div>
+        <div class="tl-marker"></div>
+        <div class="tl-content">
+          <div class="tl-country">튀르키예</div>
+          <div class="tl-event">Law No. 7408 — OIC/SMIIC 표준 의무 적용</div>
+          <div class="tl-note">자국 인증 시 SMIIC 1·2 강제. 국제표준 의무화 첫 사례</div>
+        </div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-year">2023</div>
+        <div class="tl-marker"></div>
+        <div class="tl-content">
+          <div class="tl-country">이집트 · 인도네시아</div>
+          <div class="tl-event">GOVS Decision 1/2023 · UU 6/2023 (33/2014 개정)</div>
+        </div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-year">2024</div>
+        <div class="tl-marker"></div>
+        <div class="tl-content">
+          <div class="tl-country">인도네시아 · 이집트</div>
+          <div class="tl-event">PP 42/2024 시행 · 식음료 강제 인증 개시 (10.17)<br/>이집트 Customs Circular 17/2024</div>
+        </div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-year">2025</div>
+        <div class="tl-marker"></div>
+        <div class="tl-content">
+          <div class="tl-country">싱가포르 · 인도네시아</div>
+          <div class="tl-event">싱가포르 디지털 할랄 인증서·QR 도입 (10.1)<br/>BPJPH CL 7/2025 — 라벨 표시 의무 강화</div>
+        </div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-year">2026</div>
+        <div class="tl-marker"></div>
+        <div class="tl-content">
+          <div class="tl-country">이집트 · 인도네시아</div>
+          <div class="tl-event">IS EG Halal → Halal-ALQAHIRAH 사명 변경 (2.1)<br/>인도네시아 외국 식품 의무 인증 시한 (10.17)</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PAGE NAVIGATION ============ -->
+<div class="page-nav-band">
+  <nav class="page-nav">
+    <div class="pn-cell left">
+      <span class="pn-label">← Prev</span>
+      <a href="halal-law-atlas-1.html" class="pn-link">
+        <span class="pn-arrow">←</span>
+        법령 체계 편
+      </a>
+      <span class="pn-text-en">Vol. I — Country Profiles &amp; Hierarchies</span>
+    </div>
+    <div class="pn-indicator">
+      <div class="pn-indicator-num">I<span>/</span><strong>II</strong></div>
+      <div class="pn-indicator-label">Volume</div>
+    </div>
+    <div class="pn-cell right">
+      <span class="pn-disabled">— 마지막 권 —</span>
+    </div>
+  </nav>
+</div>
+
+<!-- ============ FOOTER ============ -->
+<footer>
+  <div class="footer-inner">
+    <div>
+      <div class="footer-brand">할랄 법령 비교 청서</div>
+      <div class="footer-brand-en">Halal Regulatory Atlas — Comparative Compendium</div>
+      <p class="footer-text">
+        본 청서는 주요 10개국의 할랄 법령 체계를 진출·인증·통상 실무 관점에서 정리한 비공식 참고 자료입니다. 각국 법령의 정본은 해당국 관보 및 공식 게재 사이트를 따르며, 본 청서는 어떠한 법적 효력도 가지지 않습니다.
+      </p>
+    </div>
+    <div class="footer-col">
+      <h5>본문 구성</h5>
+      <ul>
+        <li>I. 개요 및 글로벌 컨텍스트</li>
+        <li>II. 국가별 핵심 개요</li>
+        <li>III. 법령 체계도</li>
+        <li>IV. 비교 매트릭스</li>
+        <li>V. OIC/SMIIC 표준</li>
+        <li>VI. 인증 절차</li>
+        <li>VII. 입법 연표</li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h5>업데이트 권장</h5>
+      <ul>
+        <li>인도네시아 · 분기별</li>
+        <li>이집트 · 분기별</li>
+        <li>튀르키예 · 반기</li>
+        <li>기타 국가 · 연 1회</li>
+        <li>OIC/SMIIC · 표준 개정 시</li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>HALAL REGULATORY ATLAS · VOL. 01 · 2026</span>
+    <span>REFERENCE ONLY · NOT LEGAL ADVICE</span>
+  </div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,2880 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>주요 10개국 할랄 법령 체계 ― 비교 청서 · Vol. I 법령 체계 편</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;500;700;900&family=Noto+Sans+KR:wght@300;400;500;700&family=IBM+Plex+Mono:wght@400;500&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet" />
+<style>
+  :root {
+    --navy:        #15233b;
+    --navy-deep:   #0c1729;
+    --navy-mid:    #213657;
+    --navy-soft:   #2e4a72;
+    --gold:        #a07c3a;
+    --gold-soft:   #c9a661;
+    --gold-pale:   #e8d6a8;
+    --cream:       #f5efde;
+    --cream-soft:  #faf6ea;
+    --paper:       #fbf8ee;
+    --ink:         #1a1d22;
+    --ink-soft:    #3c4150;
+    --ink-mute:    #6c7081;
+    --rule:        #c9bfa3;
+    --rule-soft:   #e3dac0;
+    --crimson:     #8a2d2d;
+    --emerald:     #2c5446;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: 'Noto Sans KR', sans-serif;
+    background: var(--paper);
+    color: var(--ink);
+    line-height: 1.7;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    background-image:
+      radial-gradient(circle at 25% 15%, rgba(160,124,58,0.04) 0%, transparent 40%),
+      radial-gradient(circle at 75% 85%, rgba(21,35,59,0.03) 0%, transparent 40%);
+  }
+
+  /* Typography */
+  .display-serif { font-family: 'Noto Serif KR', serif; font-weight: 900; letter-spacing: -0.02em; }
+  .serif { font-family: 'Noto Serif KR', serif; }
+  .latin-serif { font-family: 'Cormorant Garamond', serif; }
+  .mono { font-family: 'IBM Plex Mono', monospace; }
+
+  /* Page wrapper */
+  .page {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 56px;
+  }
+
+  /* ============ HEADER ============ */
+  .masthead {
+    background: var(--navy-deep);
+    color: var(--cream);
+    padding: 24px 56px;
+    border-bottom: 1px solid var(--gold);
+    position: relative;
+    overflow: hidden;
+  }
+  .masthead::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background-image:
+      repeating-linear-gradient(
+        90deg,
+        transparent,
+        transparent 80px,
+        rgba(160,124,58,0.06) 80px,
+        rgba(160,124,58,0.06) 81px
+      );
+    pointer-events: none;
+  }
+  .masthead-inner {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+  }
+  .masthead-left {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+  }
+  .seal {
+    width: 44px;
+    height: 44px;
+    border: 1.5px solid var(--gold);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    color: var(--gold);
+    font-size: 22px;
+    position: relative;
+  }
+  .seal::after {
+    content: '';
+    position: absolute;
+    inset: 4px;
+    border: 1px solid var(--gold);
+    border-radius: 50%;
+    opacity: 0.4;
+  }
+  .masthead-meta {
+    font-size: 11px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--gold-pale);
+    line-height: 1.5;
+  }
+  .masthead-meta strong { color: var(--cream); font-weight: 500; }
+  .masthead-right {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11px;
+    color: var(--gold-pale);
+    text-align: right;
+    letter-spacing: 0.05em;
+  }
+
+  /* ============ COVER ============ */
+  .cover {
+    background: var(--navy);
+    color: var(--cream);
+    padding: 80px 56px 100px;
+    position: relative;
+    overflow: hidden;
+  }
+  .cover::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background-image:
+      linear-gradient(135deg, transparent 49.5%, rgba(160,124,58,0.08) 49.5%, rgba(160,124,58,0.08) 50.5%, transparent 50.5%),
+      linear-gradient(45deg, transparent 49.5%, rgba(160,124,58,0.04) 49.5%, rgba(160,124,58,0.04) 50.5%, transparent 50.5%);
+    background-size: 80px 80px;
+    pointer-events: none;
+    opacity: 0.6;
+  }
+  .cover-inner {
+    max-width: 1280px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+  }
+  .cover-eyebrow {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 12px;
+    letter-spacing: 0.4em;
+    text-transform: uppercase;
+    color: var(--gold-soft);
+    margin-bottom: 32px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  .cover-eyebrow::before, .cover-eyebrow::after {
+    content: '';
+    flex: 0 0 60px;
+    height: 1px;
+    background: var(--gold);
+  }
+  .cover-eyebrow::after { flex: 1; }
+
+  .cover h1 {
+    font-family: 'Noto Serif KR', serif;
+    font-weight: 900;
+    font-size: 68px;
+    line-height: 1.15;
+    letter-spacing: -0.03em;
+    margin-bottom: 28px;
+    color: var(--cream-soft);
+  }
+  .cover h1 em {
+    font-style: italic;
+    color: var(--gold-soft);
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 500;
+  }
+  .cover-subtitle {
+    font-size: 19px;
+    color: var(--gold-pale);
+    max-width: 720px;
+    line-height: 1.7;
+    margin-bottom: 56px;
+    font-weight: 300;
+  }
+  .cover-stats {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0;
+    border-top: 1px solid var(--gold);
+    border-bottom: 1px solid var(--gold);
+  }
+  .stat {
+    padding: 28px 24px;
+    border-right: 1px solid rgba(201,166,97,0.3);
+  }
+  .stat:last-child { border-right: none; }
+  .stat-num {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 56px;
+    font-weight: 500;
+    line-height: 1;
+    color: var(--gold-soft);
+    margin-bottom: 8px;
+  }
+  .stat-label {
+    font-size: 12px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--gold-pale);
+    line-height: 1.5;
+  }
+  .stat-sub {
+    font-size: 11px;
+    color: rgba(232,214,168,0.6);
+    margin-top: 4px;
+  }
+
+  /* ============ SECTION ============ */
+  section {
+    padding: 80px 0;
+  }
+  section.alt { background: var(--cream-soft); }
+  section.dark { background: var(--navy); color: var(--cream); }
+
+  .section-head {
+    margin-bottom: 56px;
+    border-bottom: 2px solid var(--navy);
+    padding-bottom: 24px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 40px;
+  }
+  section.dark .section-head { border-bottom-color: var(--gold); }
+
+  .section-num {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 14px;
+    letter-spacing: 0.3em;
+    color: var(--gold);
+    margin-bottom: 12px;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+  .section-title {
+    font-family: 'Noto Serif KR', serif;
+    font-weight: 900;
+    font-size: 40px;
+    letter-spacing: -0.02em;
+    line-height: 1.2;
+    color: var(--navy-deep);
+  }
+  section.dark .section-title { color: var(--cream); }
+  .section-tagline {
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    font-size: 18px;
+    color: var(--ink-mute);
+    text-align: right;
+    max-width: 280px;
+    line-height: 1.5;
+  }
+  section.dark .section-tagline { color: var(--gold-pale); }
+
+  /* ============ OVERVIEW (Section 1) ============ */
+  .overview-grid {
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+    gap: 60px;
+    align-items: start;
+  }
+  .overview-text p {
+    font-size: 16px;
+    line-height: 1.85;
+    color: var(--ink-soft);
+    margin-bottom: 18px;
+  }
+  .overview-text p:first-child::first-letter {
+    font-family: 'Noto Serif KR', serif;
+    font-size: 64px;
+    font-weight: 700;
+    float: left;
+    line-height: 0.9;
+    margin: 6px 12px 0 0;
+    color: var(--navy);
+  }
+  .overview-pull {
+    background: var(--navy);
+    color: var(--cream);
+    padding: 40px 36px;
+    border-left: 4px solid var(--gold);
+    position: relative;
+  }
+  .overview-pull-quote {
+    font-family: 'Noto Serif KR', serif;
+    font-size: 22px;
+    line-height: 1.5;
+    color: var(--gold-pale);
+    font-weight: 500;
+    margin-bottom: 24px;
+  }
+  .overview-pull-list {
+    border-top: 1px solid rgba(201,166,97,0.4);
+    padding-top: 20px;
+    font-size: 13px;
+    color: var(--cream-soft);
+  }
+  .overview-pull-list dt {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.2em;
+    color: var(--gold-soft);
+    text-transform: uppercase;
+    margin-top: 16px;
+    margin-bottom: 4px;
+  }
+  .overview-pull-list dt:first-child { margin-top: 0; }
+
+  /* ============ COUNTRY CARDS (Section 2) ============ */
+  .country-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+  }
+  .country-card {
+    background: white;
+    border: 1px solid var(--rule-soft);
+    padding: 32px 32px 28px;
+    position: relative;
+    transition: all 0.3s ease;
+  }
+  .country-card:hover {
+    border-color: var(--gold);
+    box-shadow: 0 8px 32px rgba(21,35,59,0.08);
+  }
+  .country-card-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid var(--rule-soft);
+  }
+  .country-name {
+    font-family: 'Noto Serif KR', serif;
+    font-weight: 700;
+    font-size: 22px;
+    color: var(--navy-deep);
+    line-height: 1.2;
+  }
+  .country-name-en {
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    font-size: 14px;
+    color: var(--ink-mute);
+    font-weight: 400;
+    margin-top: 4px;
+  }
+  .country-id {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.2em;
+    color: var(--gold);
+    background: var(--cream);
+    padding: 4px 10px;
+    border: 1px solid var(--gold-pale);
+  }
+  .country-meta {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px 20px;
+    margin-bottom: 18px;
+  }
+  .country-meta-item {
+    font-size: 12px;
+  }
+  .country-meta-label {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.18em;
+    color: var(--ink-mute);
+    text-transform: uppercase;
+    margin-bottom: 3px;
+  }
+  .country-meta-value {
+    color: var(--ink);
+    font-weight: 500;
+    font-size: 13px;
+  }
+  .country-summary {
+    font-size: 13px;
+    line-height: 1.7;
+    color: var(--ink-soft);
+    border-top: 1px dashed var(--rule);
+    padding-top: 14px;
+    margin-bottom: 14px;
+  }
+  .country-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+  .tag {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 4px 10px;
+    border: 1px solid var(--rule);
+    color: var(--ink-soft);
+    background: var(--cream-soft);
+  }
+  .tag.mandatory { background: var(--crimson); color: var(--cream); border-color: var(--crimson); }
+  .tag.voluntary { background: var(--emerald); color: var(--cream); border-color: var(--emerald); }
+  .tag.gov { background: var(--navy); color: var(--cream); border-color: var(--navy); }
+  .tag.religious { background: var(--gold); color: white; border-color: var(--gold); }
+
+  /* ============ HIERARCHY DIAGRAMS (Section 3) ============ */
+  .hierarchy-intro {
+    margin-bottom: 48px;
+    font-size: 15px;
+    color: var(--ink-soft);
+    max-width: 880px;
+    line-height: 1.85;
+  }
+  .hierarchy-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+  }
+  .hierarchy-card {
+    background: white;
+    border: 1px solid var(--rule-soft);
+    padding: 32px;
+  }
+  .hier-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    border-bottom: 2px solid var(--navy);
+    padding-bottom: 12px;
+    margin-bottom: 28px;
+  }
+  .hier-country {
+    font-family: 'Noto Serif KR', serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: var(--navy-deep);
+  }
+  .hier-num {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 32px;
+    color: var(--gold);
+    font-weight: 500;
+  }
+  .hier-tree {
+    position: relative;
+  }
+  .hier-level {
+    margin-bottom: 14px;
+    position: relative;
+    padding-left: 22px;
+  }
+  .hier-level::before {
+    content: '';
+    position: absolute;
+    left: 0; top: 14px;
+    width: 14px;
+    height: 1px;
+    background: var(--gold);
+  }
+  .hier-level::after {
+    content: '';
+    position: absolute;
+    left: 0; top: 0; bottom: -14px;
+    width: 1px;
+    background: var(--rule);
+  }
+  .hier-level:last-child::after { display: none; }
+  .hier-level-label {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.18em;
+    color: var(--gold);
+    text-transform: uppercase;
+    margin-bottom: 4px;
+  }
+  .hier-level-content {
+    font-size: 14px;
+    color: var(--ink);
+    font-weight: 500;
+    line-height: 1.55;
+  }
+  .hier-level-meta {
+    font-size: 11px;
+    color: var(--ink-mute);
+    margin-top: 2px;
+    font-style: italic;
+  }
+  .hier-level.top { padding-left: 0; }
+  .hier-level.top::before, .hier-level.top::after { display: none; }
+  .hier-level.top .hier-level-content {
+    background: var(--navy);
+    color: var(--cream);
+    padding: 12px 18px;
+    font-family: 'Noto Serif KR', serif;
+    font-size: 15px;
+    font-weight: 700;
+    border-left: 4px solid var(--gold);
+  }
+
+  /* ============ INDONESIA EXPANDED DOSSIER ============ */
+  .hierarchy-card.expanded {
+    grid-column: 1 / -1;
+    background: white;
+    border: 1px solid var(--gold-pale);
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+  }
+  .hierarchy-card.expanded::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0;
+    width: 6px;
+    bottom: 0;
+    background: linear-gradient(to bottom, var(--gold) 0%, var(--gold-soft) 50%, var(--gold) 100%);
+  }
+  .expanded-head {
+    background: var(--navy);
+    color: var(--cream);
+    padding: 28px 36px;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 32px;
+    align-items: end;
+    border-bottom: 1px solid var(--gold);
+    position: relative;
+    overflow: hidden;
+  }
+  .expanded-head::after {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background-image: repeating-linear-gradient(
+      90deg, transparent, transparent 60px,
+      rgba(160,124,58,0.05) 60px, rgba(160,124,58,0.05) 61px
+    );
+    pointer-events: none;
+  }
+  .expanded-head-left { position: relative; z-index: 1; }
+  .expanded-eyebrow {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.3em;
+    color: var(--gold-soft);
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+  .expanded-title {
+    font-family: 'Noto Serif KR', serif;
+    font-weight: 900;
+    font-size: 28px;
+    color: var(--cream-soft);
+    line-height: 1.2;
+    margin-bottom: 6px;
+  }
+  .expanded-title em {
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    color: var(--gold-soft);
+    font-weight: 500;
+    font-size: 22px;
+  }
+  .expanded-subtitle {
+    font-size: 13px;
+    color: var(--gold-pale);
+    line-height: 1.6;
+    max-width: 720px;
+  }
+  .expanded-stats {
+    display: flex;
+    gap: 24px;
+    position: relative;
+    z-index: 1;
+    border-left: 1px solid rgba(201,166,97,0.4);
+    padding-left: 32px;
+  }
+  .expanded-stat {
+    text-align: right;
+  }
+  .expanded-stat-num {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 38px;
+    font-weight: 500;
+    color: var(--gold-soft);
+    line-height: 1;
+  }
+  .expanded-stat-num span { font-size: 18px; color: var(--gold-pale); }
+  .expanded-stat-label {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.2em;
+    color: var(--gold-pale);
+    text-transform: uppercase;
+    margin-top: 4px;
+  }
+
+  /* TIER ROWS - 5단 위계 */
+  .tier-stack {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+  .tier-row {
+    display: grid;
+    grid-template-columns: 200px 1fr 110px;
+    border-bottom: 1px solid var(--rule-soft);
+    transition: background 0.2s;
+  }
+  .tier-row:last-child { border-bottom: none; }
+  .tier-row:hover { background: rgba(245,239,222,0.4); }
+
+  .tier-side {
+    background: linear-gradient(135deg, var(--navy) 0%, var(--navy-mid) 100%);
+    color: var(--cream);
+    padding: 22px 22px;
+    position: relative;
+    border-right: 3px solid var(--gold);
+  }
+  .tier-letter {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 36px;
+    font-weight: 600;
+    color: var(--gold-soft);
+    line-height: 1;
+    margin-bottom: 6px;
+  }
+  .tier-name {
+    font-family: 'Noto Serif KR', serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: var(--cream-soft);
+    line-height: 1.3;
+    margin-bottom: 4px;
+  }
+  .tier-name-en {
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    font-size: 11px;
+    color: var(--gold-pale);
+    line-height: 1.4;
+  }
+
+  .tier-body {
+    padding: 18px 24px;
+    border-right: 1px solid var(--rule-soft);
+  }
+  .tier-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .tier-list li {
+    padding: 6px 0 6px 18px;
+    position: relative;
+    border-bottom: 1px dashed var(--rule);
+    font-size: 12.5px;
+    line-height: 1.5;
+    color: var(--ink-soft);
+  }
+  .tier-list li:last-child { border-bottom: none; }
+  .tier-list li::before {
+    content: '◆';
+    position: absolute;
+    left: 0;
+    top: 8px;
+    color: var(--gold);
+    font-size: 8px;
+  }
+  .tier-list li strong {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11px;
+    font-weight: 500;
+    color: var(--navy-deep);
+    margin-right: 6px;
+    letter-spacing: 0.02em;
+  }
+  .tier-list li em {
+    font-style: normal;
+    color: var(--ink-mute);
+    font-size: 11.5px;
+  }
+  .tier-list li.priority {
+    background: linear-gradient(90deg, rgba(160,124,58,0.06) 0%, transparent 100%);
+    padding-left: 22px;
+  }
+  .tier-list li.priority::before {
+    content: '★';
+    color: var(--gold);
+    font-size: 10px;
+    top: 7px;
+  }
+  .tier-list li.priority strong { color: var(--gold); }
+
+  .pg-badge {
+    display: inline-block;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.05em;
+    background: var(--cream);
+    color: var(--gold);
+    padding: 1px 6px;
+    border: 1px solid var(--gold-pale);
+    margin-left: 6px;
+    vertical-align: 1px;
+  }
+  .pg-badge.verified {
+    background: var(--emerald);
+    color: var(--cream);
+    border-color: var(--emerald);
+  }
+  .pg-badge.verified::before { content: '✓ '; }
+
+  .tier-tally {
+    background: var(--cream-soft);
+    padding: 18px 14px;
+    border-left: 1px solid var(--rule-soft);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 6px;
+  }
+  .tier-tally-num {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 32px;
+    color: var(--gold);
+    font-weight: 500;
+    line-height: 1;
+  }
+  .tier-tally-num span { font-size: 18px; }
+  .tier-tally-label {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.18em;
+    color: var(--ink-mute);
+    text-transform: uppercase;
+  }
+  .tier-tally-pages {
+    font-size: 10.5px;
+    color: var(--ink-soft);
+    border-top: 1px dashed var(--rule);
+    padding-top: 6px;
+    width: 100%;
+  }
+  .tier-tally-pages strong {
+    color: var(--navy-deep);
+    font-family: 'IBM Plex Mono', monospace;
+  }
+
+  .tier-row.totals {
+    background: var(--navy-deep);
+    color: var(--cream);
+    border-bottom: none;
+  }
+  .tier-row.totals:hover { background: var(--navy-deep); }
+  .tier-row.totals .tier-side {
+    background: var(--navy-deep);
+    border-right-color: var(--gold-soft);
+  }
+  .tier-row.totals .tier-letter {
+    font-size: 22px;
+    color: var(--gold-soft);
+  }
+  .tier-row.totals .tier-name { color: var(--gold-soft); }
+  .tier-row.totals .tier-body {
+    color: var(--gold-pale);
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    border-right-color: rgba(201,166,97,0.2);
+  }
+  .tier-row.totals .tier-tally {
+    background: var(--navy-deep);
+    border-left-color: rgba(201,166,97,0.2);
+  }
+  .tier-row.totals .tier-tally-num { color: var(--gold-soft); }
+  .tier-row.totals .tier-tally-label { color: var(--gold-pale); }
+  .tier-row.totals .tier-tally-pages {
+    color: var(--gold-pale);
+    border-top-color: rgba(201,166,97,0.2);
+  }
+  .tier-row.totals .tier-tally-pages strong { color: var(--cream-soft); }
+
+  /* INDO EXPANDED FOOTER NOTES */
+  .expanded-footer {
+    background: var(--cream);
+    padding: 24px 36px;
+    border-top: 1px solid var(--gold-pale);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 28px;
+  }
+  .ef-card {
+    border-left: 3px solid var(--gold);
+    padding-left: 16px;
+  }
+  .ef-icon {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 22px;
+    color: var(--gold);
+    line-height: 1;
+    margin-bottom: 4px;
+    font-weight: 600;
+  }
+  .ef-title {
+    font-family: 'Noto Serif KR', serif;
+    font-weight: 700;
+    font-size: 13px;
+    color: var(--navy-deep);
+    margin-bottom: 6px;
+  }
+  .ef-body {
+    font-size: 12px;
+    color: var(--ink-soft);
+    line-height: 1.6;
+  }
+  .ef-body strong { color: var(--navy-deep); }
+
+  /* ============ COMPARE TABLE (Section 4) ============ */
+  .compare-wrap {
+    overflow-x: auto;
+    border: 1px solid var(--rule);
+    background: white;
+  }
+  table.compare {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+    min-width: 1100px;
+  }
+  table.compare thead {
+    background: var(--navy);
+    color: var(--cream);
+  }
+  table.compare th {
+    text-align: left;
+    padding: 16px 14px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: 0.05em;
+    border-right: 1px solid var(--navy-mid);
+    vertical-align: top;
+  }
+  table.compare th:first-child {
+    background: var(--navy-deep);
+    width: 130px;
+  }
+  table.compare th:last-child { border-right: none; }
+  table.compare td {
+    padding: 14px;
+    border-bottom: 1px solid var(--rule-soft);
+    border-right: 1px solid var(--rule-soft);
+    vertical-align: top;
+    color: var(--ink-soft);
+    line-height: 1.5;
+  }
+  table.compare td:last-child { border-right: none; }
+  table.compare td:first-child {
+    background: var(--cream-soft);
+    font-family: 'Noto Serif KR', serif;
+    font-weight: 700;
+    color: var(--navy-deep);
+    border-right: 2px solid var(--gold);
+  }
+  table.compare tr:hover td:not(:first-child) { background: rgba(245,239,222,0.4); }
+  .pill {
+    display: inline-block;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.1em;
+    padding: 3px 8px;
+    text-transform: uppercase;
+    border-radius: 2px;
+  }
+  .pill.m { background: var(--crimson); color: var(--cream); }
+  .pill.v { background: var(--emerald); color: var(--cream); }
+  .pill.h { background: var(--gold); color: white; }
+
+  /* ============ INTL STANDARDS (Section 5) ============ */
+  .smiic-wrap {
+    background: var(--navy-deep);
+    color: var(--cream);
+    padding: 48px;
+    position: relative;
+    border-left: 4px solid var(--gold);
+  }
+  .smiic-grid {
+    display: grid;
+    grid-template-columns: 1fr 1.4fr;
+    gap: 60px;
+    align-items: start;
+  }
+  .smiic-left h3 {
+    font-family: 'Noto Serif KR', serif;
+    font-size: 26px;
+    color: var(--gold-soft);
+    margin-bottom: 16px;
+    font-weight: 700;
+    line-height: 1.3;
+  }
+  .smiic-left p {
+    font-size: 14px;
+    color: var(--gold-pale);
+    line-height: 1.8;
+    margin-bottom: 12px;
+  }
+  .smiic-stats {
+    margin-top: 28px;
+    padding-top: 24px;
+    border-top: 1px solid rgba(201,166,97,0.3);
+  }
+  .smiic-stat {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 10px 0;
+    border-bottom: 1px dotted rgba(201,166,97,0.2);
+    font-size: 12px;
+  }
+  .smiic-stat-label { color: var(--gold-pale); letter-spacing: 0.05em; }
+  .smiic-stat-num {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 22px;
+    color: var(--gold-soft);
+    font-weight: 500;
+  }
+
+  .standards-list { display: flex; flex-direction: column; gap: 12px; }
+  .standard-row {
+    display: grid;
+    grid-template-columns: 130px 1fr auto;
+    gap: 20px;
+    padding: 14px 18px;
+    background: rgba(232,214,168,0.05);
+    border-left: 2px solid var(--gold);
+    align-items: center;
+  }
+  .standard-code {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 12px;
+    color: var(--gold-soft);
+    letter-spacing: 0.05em;
+    font-weight: 500;
+  }
+  .standard-name {
+    font-size: 13px;
+    color: var(--cream-soft);
+    line-height: 1.4;
+  }
+  .standard-name em {
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    color: var(--gold-pale);
+    font-size: 12px;
+    display: block;
+    margin-top: 2px;
+  }
+  .standard-adopt {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px;
+    color: var(--gold);
+    letter-spacing: 0.1em;
+  }
+
+  /* ============ CERT FLOW (Section 6) ============ */
+  .flow-intro {
+    margin-bottom: 40px;
+    font-size: 15px;
+    color: var(--ink-soft);
+    max-width: 880px;
+    line-height: 1.85;
+  }
+  .flow-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 0;
+    position: relative;
+    background: white;
+    border: 1px solid var(--rule);
+    padding: 36px 12px;
+  }
+  .flow-step {
+    text-align: center;
+    padding: 0 8px;
+    position: relative;
+  }
+  .flow-step:not(:last-child)::after {
+    content: '→';
+    position: absolute;
+    right: -8px;
+    top: 24px;
+    font-size: 18px;
+    color: var(--gold);
+    font-family: 'Cormorant Garamond', serif;
+  }
+  .flow-num {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 36px;
+    color: var(--gold);
+    line-height: 1;
+    font-weight: 500;
+    margin-bottom: 8px;
+  }
+  .flow-title {
+    font-family: 'Noto Serif KR', serif;
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--navy-deep);
+    margin-bottom: 6px;
+    line-height: 1.3;
+  }
+  .flow-desc {
+    font-size: 11px;
+    color: var(--ink-mute);
+    line-height: 1.5;
+  }
+
+  /* Variation table */
+  .variation-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    margin-top: 36px;
+  }
+  .variation-card {
+    background: white;
+    border: 1px solid var(--rule);
+    padding: 24px 28px;
+  }
+  .variation-card h4 {
+    font-family: 'Noto Serif KR', serif;
+    font-size: 16px;
+    color: var(--navy-deep);
+    margin-bottom: 12px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--gold-pale);
+  }
+  .variation-card ul { list-style: none; font-size: 13px; line-height: 1.7; color: var(--ink-soft); }
+  .variation-card li {
+    padding-left: 18px;
+    position: relative;
+    margin-bottom: 4px;
+  }
+  .variation-card li::before {
+    content: '◆';
+    position: absolute;
+    left: 0;
+    color: var(--gold);
+    font-size: 9px;
+    top: 4px;
+  }
+  .variation-card li strong { color: var(--navy-deep); }
+
+  /* ============ TIMELINE (Section 7) ============ */
+  .timeline {
+    position: relative;
+    margin-top: 24px;
+    padding-left: 0;
+  }
+  .timeline::before {
+    content: '';
+    position: absolute;
+    left: 110px;
+    top: 0;
+    bottom: 0;
+    width: 1px;
+    background: var(--gold);
+  }
+  .tl-item {
+    display: grid;
+    grid-template-columns: 110px 30px 1fr;
+    gap: 0;
+    padding: 14px 0;
+    align-items: start;
+    position: relative;
+  }
+  .tl-year {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 26px;
+    color: var(--navy-deep);
+    text-align: right;
+    padding-right: 20px;
+    font-weight: 500;
+    line-height: 1.1;
+  }
+  .tl-marker {
+    width: 11px;
+    height: 11px;
+    background: var(--gold);
+    border: 2px solid var(--paper);
+    box-shadow: 0 0 0 1px var(--gold);
+    margin: 8px auto 0;
+    border-radius: 50%;
+    position: relative;
+    z-index: 1;
+  }
+  .tl-content { padding-left: 20px; }
+  .tl-country {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.15em;
+    color: var(--gold);
+    text-transform: uppercase;
+    margin-bottom: 2px;
+  }
+  .tl-event {
+    font-family: 'Noto Serif KR', serif;
+    font-size: 14px;
+    color: var(--navy-deep);
+    font-weight: 500;
+    line-height: 1.5;
+  }
+  .tl-note { font-size: 12px; color: var(--ink-mute); margin-top: 2px; }
+
+  /* ============ FOOTER ============ */
+  footer {
+    background: var(--navy-deep);
+    color: var(--gold-pale);
+    padding: 56px 56px 32px;
+    border-top: 3px double var(--gold);
+  }
+  .footer-inner {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr;
+    gap: 60px;
+    margin-bottom: 40px;
+  }
+  .footer-brand {
+    font-family: 'Noto Serif KR', serif;
+    font-size: 18px;
+    color: var(--cream);
+    margin-bottom: 12px;
+  }
+  .footer-brand-en {
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    color: var(--gold-soft);
+    font-size: 14px;
+    margin-bottom: 16px;
+  }
+  .footer-text {
+    font-size: 12px;
+    line-height: 1.7;
+    color: rgba(232,214,168,0.7);
+  }
+  .footer-col h5 {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.2em;
+    color: var(--gold-soft);
+    text-transform: uppercase;
+    margin-bottom: 14px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid rgba(201,166,97,0.3);
+  }
+  .footer-col ul { list-style: none; font-size: 12px; line-height: 1.9; color: rgba(232,214,168,0.7); }
+  .footer-bottom {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding-top: 24px;
+    border-top: 1px solid rgba(201,166,97,0.2);
+    display: flex;
+    justify-content: space-between;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px;
+    color: rgba(232,214,168,0.5);
+    letter-spacing: 0.1em;
+  }
+
+  /* ============ RESPONSIVE ============ */
+  @media (max-width: 980px) {
+    .page { padding: 0 24px; }
+    .cover { padding: 56px 24px 72px; }
+    .cover h1 { font-size: 44px; }
+    .cover-stats { grid-template-columns: repeat(2, 1fr); }
+    .stat { border-right: none; border-bottom: 1px solid rgba(201,166,97,0.3); }
+    .overview-grid, .country-grid, .hierarchy-grid, .smiic-grid, .variation-grid {
+      grid-template-columns: 1fr;
+    }
+    .flow-grid { grid-template-columns: repeat(2, 1fr); gap: 24px; }
+    .flow-step::after { display: none; }
+    .footer-inner { grid-template-columns: 1fr; gap: 32px; }
+    .section-head { flex-direction: column; align-items: flex-start; }
+    .section-tagline { text-align: left; }
+
+    /* Indonesia expanded card mobile */
+    .expanded-head { grid-template-columns: 1fr; gap: 18px; padding: 22px 24px; }
+    .expanded-stats { border-left: none; padding-left: 0; padding-top: 18px; border-top: 1px solid rgba(201,166,97,0.3); }
+    .expanded-title { font-size: 22px; }
+    .tier-row { grid-template-columns: 1fr; }
+    .tier-side { border-right: none; border-bottom: 3px solid var(--gold); padding: 14px 22px; display: flex; align-items: center; gap: 14px; }
+    .tier-letter { font-size: 26px; margin-bottom: 0; }
+    .tier-body { border-right: none; border-bottom: 1px solid var(--rule-soft); }
+    .tier-tally { border-left: none; flex-direction: row; padding: 12px 18px; gap: 14px; justify-content: space-between; }
+    .tier-tally-pages { border-top: none; border-left: 1px dashed var(--rule); padding: 0 0 0 14px; width: auto; }
+    .tier-row.totals .tier-body { font-size: 14px; padding: 14px 22px; }
+    .expanded-footer { grid-template-columns: 1fr; padding: 22px 24px; gap: 20px; }
+  }
+  /* ============ PAGE NAVIGATION ============ */
+  .page-nav-band {
+    background: var(--cream);
+    border-top: 1px solid var(--rule);
+    border-bottom: 1px solid var(--rule);
+    padding: 36px 0;
+  }
+  .page-nav {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 56px;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    gap: 40px;
+    align-items: center;
+  }
+  .pn-cell {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+  .pn-cell.left { align-items: flex-start; }
+  .pn-cell.right { align-items: flex-end; text-align: right; }
+  .pn-label {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.3em;
+    color: var(--ink-mute);
+    text-transform: uppercase;
+  }
+  .pn-link {
+    display: inline-flex;
+    align-items: baseline;
+    gap: 14px;
+    text-decoration: none;
+    color: var(--navy-deep);
+    font-family: 'Noto Serif KR', serif;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 1.3;
+    border-bottom: 1px solid transparent;
+    padding-bottom: 4px;
+    transition: all 0.2s ease;
+  }
+  .pn-link:hover {
+    color: var(--gold);
+    border-bottom-color: var(--gold);
+  }
+  .pn-arrow {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 32px;
+    font-weight: 500;
+    color: var(--gold);
+    line-height: 1;
+  }
+  .pn-text-en {
+    display: block;
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    font-size: 14px;
+    color: var(--ink-mute);
+    font-weight: 400;
+    margin-top: 4px;
+    letter-spacing: 0.01em;
+  }
+  .pn-disabled {
+    color: var(--ink-mute);
+    opacity: 0.4;
+    cursor: default;
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .pn-indicator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    padding: 0 24px;
+    border-left: 1px solid var(--rule);
+    border-right: 1px solid var(--rule);
+  }
+  .pn-indicator-num {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 38px;
+    font-weight: 600;
+    color: var(--gold);
+    line-height: 1;
+    letter-spacing: 0.02em;
+  }
+  .pn-indicator-num span {
+    color: var(--ink-mute);
+    font-weight: 400;
+    margin: 0 4px;
+  }
+  .pn-indicator-label {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.25em;
+    color: var(--ink-mute);
+    text-transform: uppercase;
+  }
+  
+  /* ============ PAGE 2 INTRO COVER (lighter than main cover) ============ */
+  .cover.cover-vol2 {
+    padding: 60px 56px 70px;
+  }
+  .cover.cover-vol2 h1 {
+    font-size: 56px;
+  }
+  .cover.cover-vol2 .cover-subtitle {
+    margin-bottom: 32px;
+  }
+  .cover.cover-vol2 .cover-stats {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  
+  /* Volume marker on masthead-right */
+  .vol-marker {
+    display: inline-block;
+    padding: 3px 10px;
+    border: 1px solid var(--gold);
+    color: var(--gold);
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.2em;
+    margin-top: 6px;
+  }
+  
+  @media (max-width: 980px) {
+    .page-nav { grid-template-columns: 1fr; gap: 24px; padding: 0 24px; text-align: center; }
+    .pn-cell.right, .pn-cell.left { align-items: center; text-align: center; }
+    .pn-indicator { border: 1px solid var(--rule); padding: 12px 24px; flex-direction: row; gap: 14px; }
+  }
+</style>
+</head>
+<body>
+<!-- ============ MASTHEAD ============ -->
+<header class="masthead">
+  <div class="masthead-inner">
+    <div class="masthead-left">
+      <div class="seal">H</div>
+      <div class="masthead-meta">
+        <div><strong>HALAL REGULATORY ATLAS</strong></div>
+        <div>주요국 할랄 법령 비교 청서 · 2026</div>
+      </div>
+    </div>
+    <div class="masthead-right">
+      Vol. 01 · No. 01<br/>
+      Reference Edition
+      <div class="vol-marker">VOL. I — HIERARCHIES</div>
+    </div>
+  </div>
+</header>
+
+<!-- ============ COVER ============ -->
+<div class="cover">
+  <div class="cover-inner">
+    <div class="cover-eyebrow">comparative compendium · vol. I</div>
+    <h1>주요 10개국<br/>할랄 법령 체계<br/><em>Vol. I — Hierarchies</em></h1>
+    <p class="cover-subtitle">
+      인도네시아 · 아랍에미리트 · 사우디아라비아 · 말레이시아 · 튀르키예 · 브루나이 · 싱가포르 · 파키스탄 · 태국 · 이집트의 할랄 인증 법체계를 한눈에 정리한 비교 청서. 각국의 법령 위계, 주관기관, 정본 언어, 강제력 수준을 통합 시각화하여 진출·인증·통상 실무에 즉시 활용할 수 있도록 구성하였습니다.
+    </p>
+
+    <div class="cover-stats">
+      <div class="stat">
+        <div class="stat-num">10</div>
+        <div class="stat-label">대상 관할</div>
+        <div class="stat-sub">10 jurisdictions</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num">60+</div>
+        <div class="stat-label">핵심 법령·표준</div>
+        <div class="stat-sub">incl. ID 31+ &amp; OIC/SMIIC 7</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num">3</div>
+        <div class="stat-label">5단 위계 정밀 분석국</div>
+        <div class="stat-sub">ID · AE · SA</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num">5</div>
+        <div class="stat-label">강제 인증 국가</div>
+        <div class="stat-sub">ID · AE · SA · BN · EG</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ============ SECTION 1 : OVERVIEW ============ -->
+<section>
+  <div class="page">
+    <div class="section-head">
+      <div>
+        <div class="section-num">— I — Overview</div>
+        <h2 class="section-title">개요 및 글로벌 컨텍스트</h2>
+      </div>
+      <div class="section-tagline">"shariah-compliant"<br/>that crosses borders</div>
+    </div>
+
+    <div class="overview-grid">
+      <div class="overview-text">
+        <p>할랄(Halal)은 단순한 종교적 표시가 아니라, 19억 무슬림 인구를 대상으로 하는 글로벌 규제·인증·통상 체계입니다. 각국 정부는 자국 무슬림 소비자 보호와 할랄 산업 육성을 동시에 추구하기 위해 법령·표준·인증제를 정비해 왔으며, 2010년대 후반부터는 강제 인증 체제로 전환하는 사례가 증가하고 있습니다.</p>
+        <p>본 청서가 다루는 10개국은 각각 (1) 정부청 주도형(인도네시아·UAE·사우디·튀르키예·파키스탄·이집트), (2) 종교 위원회 주도형(말레이시아·브루나이·싱가포르·태국)으로 대별됩니다. 같은 OIC 회원국이라 하더라도 정본 언어, 법령 위계, 강제력의 범위, 주관기관의 성격이 모두 상이하므로 — 단일 모델로 환원하지 않고 국가별 체계 자체를 정확히 이해하는 것이 진출 실무의 출발점이 됩니다.</p>
+        <p>OIC/SMIIC 표준이 사실상 국제 공통 분모 역할을 하지만, 각국이 이를 채택하는 방식과 강제력 부여 시점은 제각각입니다. 본 청서는 그 차이를 일관된 분류 체계로 비교할 수 있도록 설계되었으며, 강제 인증 체계의 핵심국인 <strong>인도네시아·UAE·사우디아라비아</strong>에 대해서는 5단 위계의 정밀 분석을 별도로 제공합니다.</p>
+      </div>
+
+      <aside class="overview-pull">
+        <div class="overview-pull-quote">
+          "정본 언어, 법령 위계, 강제력 ─ 이 세 가지를 먼저 확인하지 않으면 진출 전략 수립의 출발점이 어긋난다."
+        </div>
+        <dl class="overview-pull-list">
+          <dt>본 청서의 분석 축</dt>
+          <dd>정본 언어 / 법령 위계 / 주관기관 성격 / 강제력 / 외국 인증기관 인정 방식 / OIC·SMIIC 채택 정도</dd>
+          <dt>청서의 활용 대상</dt>
+          <dd>해외 진출 · 통상 · 인증 · 규제 대응 실무 담당자 / 식품·화장품·의약품·물류 산업의 진출 기획 부서</dd>
+          <dt>업데이트 주기</dt>
+          <dd>인도네시아·이집트는 분기별 / 기타 국가는 연 1회 갱신 권장</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SECTION 2 : COUNTRY CARDS ============ -->
+<section class="alt">
+  <div class="page">
+    <div class="section-head">
+      <div>
+        <div class="section-num">— II — Country profiles</div>
+        <h2 class="section-title">국가별 핵심 개요 카드</h2>
+      </div>
+      <div class="section-tagline">10 jurisdictions<br/>at a glance</div>
+    </div>
+
+    <div class="country-grid">
+
+      <!-- Indonesia -->
+      <div class="country-card">
+        <div class="country-card-head">
+          <div>
+            <div class="country-name">인도네시아</div>
+            <div class="country-name-en">Indonesia</div>
+          </div>
+          <div class="country-id">ID · 01</div>
+        </div>
+        <div class="country-meta">
+          <div class="country-meta-item">
+            <div class="country-meta-label">주관기관</div>
+            <div class="country-meta-value">BPJPH · MUI</div>
+          </div>
+          <div class="country-meta-item">
+            <div class="country-meta-label">모법</div>
+            <div class="country-meta-value">UU 33/2014 (UU 6/2023 개정)</div>
+          </div>
+          <div class="country-meta-item">
+            <div class="country-meta-label">정본 언어</div>
+            <div class="country-meta-value">인도네시아어</div>
+          </div>
+          <div class="country-meta-item">
+            <div class="country-meta-label">시행령</div>
+            <div class="country-meta-value">PP 42/2024</div>
+          </div>
+        </div>
+        <p class="country-summary">2024.10.17부로 식음료 강제 인증 시행. 종교부 산하 BPJPH가 행정, 울라마협의회(MUI)가 파트와 발급의 이원적 거버넌스 구조. <strong style="color:var(--gold);">법률·시행령·장관령·청장 결정·부처 협력 회람으로 이어지는 5단 위계의 다층 코퍼스</strong>로, 본 청서 III장에서 별도 정밀 분석.</p>
+        <div class="country-tags">
+          <span class="tag mandatory">MANDATORY</span>
+          <span class="tag gov">정부청 주도</span>
+          <span class="tag">현지어 정본</span>
+          <span class="tag" style="background:var(--gold); color:white; border-color:var(--gold);">5-TIER 다층 코퍼스</span>
+        </div>
+      </div>
+
+      <!-- UAE -->
+      <div class="country-card">
+        <div class="country-card-head">
+          <div>
+            <div class="country-name">아랍에미리트</div>
+            <div class="country-name-en">United Arab Emirates</div>
+          </div>
+          <div class="country-id">AE · 02</div>
+        </div>
+        <div class="country-meta">
+          <div class="country-meta-item">
+            <div class="country-meta-label">주관기관</div>
+            <div class="country-meta-value">MOIAT (구 ESMA)</div>
+          </div>
+          <div class="country-meta-item">
+            <div class="country-meta-label">모법</div>
+            <div class="country-meta-value">Cabinet Decree No. 10/2014</div>
+          </div>
+          <div class="country-meta-item">
+            <div class="country-meta-label">정본 언어</div>
+            <div class="country-meta-value">아랍어 (영문 병기)</div>
+          </div>
+          <div class="country-meta-item">
+            <div class="country-meta-label">표준</div>
+            <div class="country-meta-value">UAE.S 2055-1/2/4 · 993</div>
+          </div>
+        </div>
+        <p class="country-summary">국가할랄마크(Halal National Mark) 단일 라벨 체계. 내각결의-MOIAT 결정-인증 스킴-국가표준-걸프(GSO)/SMIIC 채택본으로 이어지는 다층 구조이며, 본 청서 III장에서 별도 정밀 분석.</p>
+        <div class="country-tags">
+          <span class="tag mandatory">MANDATORY</span>
+          <span class="tag gov">정부청 주도</span>
+          <span class="tag">아랍어 정본</span>
+          <span class="tag" style="background:var(--gold); color:white; border-color:var(--gold);">5-TIER 다층 코퍼스</span>
+        </div>
+      </div>
+
+      <!-- Saudi -->
+      <div class="country-card">
+        <div class="country-card-head">
+          <div>
+            <div class="country-name">사우디아라비아</div>
+            <div class="country-name-en">Saudi Arabia</div>
+          </div>
+          <div class="country-id">SA · 03</div>
+        </div>
+        <div class="country-meta">
+          <div class="country-meta-item">
+            <div class="country-meta-label">주관기관</div>
+            <div class="country-meta-value">SFDA · Saudi Halal Center</div>
+          </div>
+          <div class="country-meta-item">
+            <div class="country-meta-label">모법</div>
+            <div class="country-meta-value">Food and Drug Law (단행 모법 부재)</div>
+          </div>
+          <div class="country-meta-item">
+            <div class="country-meta-label">정본 언어</div>
+            <div class="country-meta-value">아랍어</div>
+          </div>
+          <div class="country-meta-item">
+            <div class="country-meta-label">표준</div>
+            <div class="country-meta-value">GSO 2055-1/2 · GSO 993</div>
+          </div>
+        </div>
+        <p class="country-summary">단행 할랄법 부재. 식품법(Royal Decree M/1)·SFDA 결정·사우디할랄센터(SHC) 운영 절차·GSO 표준 채택본의 결합으로 운영. SHC가 외국 인증기관 인정·관리하며, 본 청서 III장에서 별도 정밀 분석.</p>
+        <div class="country-tags">
+          <span class="tag mandatory">MANDATORY</span>
+          <span class="tag gov">정부청 주도</span>
+          <span class="tag">아랍어 정본</span>
+          <span class="tag" style="background:var(--gold); color:white; border-color:var(--gold);">5-TIER 다층 코퍼스</span>
+        </div>
+      </div>
+
+      <!-- Malaysia -->
+      <div class="country-card">
+        <div class="country-card-head">
+          <div>
+            <div class="country-name">말레이시아</div>
+            <div class="country-name-en">Malaysia</div>
+          </div>
+          <div class="country-id">MY · 04</div>
+        </div>
+        <div class="country-meta">
+          <div class="country-meta-item">
+            <div class="country-meta-label">주관기관</div>
+            <div class="country-meta-value">JAKIM · HDC</div>
+          </div>
+          <div class="country-meta-item">
+            <div class="country-meta-label">모법</div>
+            <div class="country-meta-value">Trade Descriptions Act 2011 (Act 730)</div>
+          </div>
+          <div class="country-meta-item">
+            <div class="country-meta-label">정본 언어</div>
+            <div class="country-meta-value">영어 · 말레이어</div>
+          </div>
+          <div class="country-meta-item">
+            <div class="country-meta-label">표준</div>
+            <div class="country-meta-value">MS 1500 / 2200 / 2400</div>
+          </div>
+        </div>
+        <p class="country-summary">국가표준(MS)과 단일 인증기관(JAKIM)으로 사실상 글로벌 할랄 인증의 기준점. 영문본이 법적 정본이며 주(州) 종교부도 인증 권한을 보유합니다.</p>
+        <div class="country-tags">
+          <span class="tag voluntary">VOLUNTARY</span>
+          <span class="tag religious">정부 산하 종교기관</span>
+          <span class="tag">영문 정본</span>
+        </div>
+      </div>
+
+      <!-- Türkiye -->
+      <div class="country-card">
+        <div class="country-card-head">
+          <div>
+            <div class="country-name">튀르키예</div>
+            <div class="country-name-en">Türkiye</div>
+          </div>
+          <div class="country-id">TR · 05</div>
+        </div>
+        <div class="country-meta">
+          <div class="country-meta-item">
+            <div class="country-meta-label">주관기관</div>
+            <div class="country-meta-value">HAK · TSE</div>
+          </div>
+          <div class="country-meta-item">
+            <div class="country-meta-label">모법</div>
+            <div class="country-meta-value">Law No. 7060 (2017)</div>
+          </div>
+          <div class="country-meta-item">
+            <div class="country-meta-label">정본 언어</div>
+            <div class="country-meta-value">튀르키예어 (영문 제공)</div>
+          </div>
+          <div class="country-meta-item">
+            <div class="country-meta-label">표준</div>
+            <div class="country-meta-value">OIC/SMIIC 1·2 (의무 채택)</div>
+          </div>
+        </div>
+        <p class="country-summary">2022년 Law No. 7408로 OIC/SMIIC 표준 적용 의무화. 일반 적합성평가는 TÜRKAK, 할랄 전담은 HAK로 인정 체계 분리.</p>
+        <div class="country-tags">
+          <span class="tag voluntary">VOLUNTARY</span>
+          <span class="tag gov">정부청 주도</span>
+          <span class="tag">SMIIC 의무 채택</span>
+        </div>
+      </div>
+
+      <!-- Brunei -->
+      <div class="country-card">
+        <div class="country-card-head">
+          <div>
+            <div class="country-name">브루나이</div>
+            <div class="country-name-en">Brunei Darussalam</div>
+          </div>
+          <div class="country-id">BN · 06</div>
+        </div>
+        <div class="country-meta">
+          <div class="country-meta-item">
+            <div class="country-meta-label">주관기관</div>
+            <div class="country-meta-value">MUIB · BKMH</div>
+          </div>
+          <div class="country-meta-item">
+            <div class="country-meta-label">모법</div>
+            <div class="country-meta-value">Halal Meat Act (Cap. 183)<br/>HCHL Order 2005 (S 39/05)</div>
+          </div>
+          <div class="country-meta-item">
+            <div class="country-meta-label">정본 언어</div>
+            <div class="country-meta-value">영어</div>
+          </div>
+          <div class="country-meta-item">
+            <div class="country-meta-label">표준</div>
+            <div class="country-meta-value">PBD 24:2007</div>
+          </div>
+        </div>
+        <p class="country-summary">2017년 강제 인증 도입. 모든 식품·외식업체가 인증 대상. 수입 할랄육은 두 명의 MUIB 감독관 입회 도살 요구 등 엄격한 통제.</p>
+        <div class="country-tags">
+          <span class="tag mandatory">MANDATORY</span>
+          <span class="tag religious">정부 산하 종교기관</span>
+          <span class="tag">영문 정본</span>
+        </div>
+      </div>
+
+      <!-- Singapore -->
+      <div class="country-card">
+        <div class="country-card-head">
+          <div>
+            <div class="country-name">싱가포르</div>
+            <div class="country-name-en">Singapore</div>
+          </div>
+          <div class="country-id">SG · 07</div>
+        </div>
+        <div class="country-meta">
+          <div class="country-meta-item">
+            <div class="country-meta-label">주관기관</div>
+            <div class="country-meta-value">MUIS</div>
+          </div>
+          <div class="country-meta-item">
+            <div class="country-meta-label">모법</div>
+            <div class="country-meta-value">AMLA 1966 §88A·88AA</div>
+          </div>
+          <div class="country-meta-item">
+            <div class="country-meta-label">정본 언어</div>
+            <div class="country-meta-value">영어</div>
+          </div>
+          <div class="country-meta-item">
+            <div class="country-meta-label">표준</div>
+            <div class="country-meta-value">SMHS · HCC (7개 스킴)</div>
+          </div>
+        </div>
+        <p class="country-summary">법정기관 MUIS의 단독 인증 권한. 7개 스킴(외식·도축·제품·보관 등)으로 세분. 2025년 디지털 인증서·QR코드 도입.</p>
+        <div class="country-tags">
+          <span class="tag voluntary">VOLUNTARY</span>
+          <span class="tag religious">법정 종교기관</span>
+          <span class="tag">영문 정본</span>
+        </div>
+      </div>
+
+      <!-- Pakistan -->
+      <div class="country-card">
+        <div class="country-card-head">
+          <div>
+            <div class="country-name">파키스탄</div>
+            <div class="country-name-en">Pakistan</div>
+          </div>
+          <div class="country-id">PK · 08</div>
+        </div>
+        <div class="country-meta">
+          <div class="country-meta-item">
+            <div class="country-meta-label">주관기관</div>
+            <div class="country-meta-value">PHA · PSQCA</div>
+          </div>
+          <div class="country-meta-item">
+            <div class="country-meta-label">모법</div>
+            <div class="country-meta-value">Pakistan Halal Authority Act 2016</div>
+          </div>
+          <div class="country-meta-item">
+            <div class="country-meta-label">정본 언어</div>
+            <div class="country-meta-value">영어</div>
+          </div>
+          <div class="country-meta-item">
+            <div class="country-meta-label">표준</div>
+            <div class="country-meta-value">PS 3733 · 4992 · 5442 · 5319</div>
+          </div>
+        </div>
+        <p class="country-summary">PHA는 연방·수출 통제, 주(州) 단위는 PHDA(펀자브) 등 별도 운영. 국내·해외 인증기관 등록(LHCB·FHCB) 체계.</p>
+        <div class="country-tags">
+          <span class="tag voluntary">VOLUNTARY</span>
+          <span class="tag gov">정부청 주도</span>
+          <span class="tag">영문 정본</span>
+        </div>
+      </div>
+
+      <!-- Thailand -->
+      <div class="country-card">
+        <div class="country-card-head">
+          <div>
+            <div class="country-name">태국</div>
+            <div class="country-name-en">Thailand</div>
+          </div>
+          <div class="country-id">TH · 09</div>
+        </div>
+        <div class="country-meta">
+          <div class="country-meta-item">
+            <div class="country-meta-label">주관기관</div>
+            <div class="country-meta-value">CICOT · HSIT · HSC</div>
+          </div>
+          <div class="country-meta-item">
+            <div class="country-meta-label">모법</div>
+            <div class="country-meta-value">Administration of Islamic Organizations Act B.E. 2540</div>
+          </div>
+          <div class="country-meta-item">
+            <div class="country-meta-label">정본 언어</div>
+            <div class="country-meta-value">태국어</div>
+          </div>
+          <div class="country-meta-item">
+            <div class="country-meta-label">표준</div>
+            <div class="country-meta-value">CICOT Reg. B.E. 2558</div>
+          </div>
+        </div>
+        <p class="country-summary">불교 다수 국가이나 무슬림 인구 약 5%·할랄 수출 강국. 출라롱콘대 Halal Science Center가 분석·연구 지원하는 학술 결합형.</p>
+        <div class="country-tags">
+          <span class="tag voluntary">VOLUNTARY</span>
+          <span class="tag religious">민간 종교 위원회</span>
+          <span class="tag">태국어 정본</span>
+        </div>
+      </div>
+
+      <!-- Egypt -->
+      <div class="country-card">
+        <div class="country-card-head">
+          <div>
+            <div class="country-name">이집트</div>
+            <div class="country-name-en">Egypt</div>
+          </div>
+          <div class="country-id">EG · 10</div>
+        </div>
+        <div class="country-meta">
+          <div class="country-meta-item">
+            <div class="country-meta-label">주관기관</div>
+            <div class="country-meta-value">GOVS · EOS · IS EG Halal</div>
+          </div>
+          <div class="country-meta-item">
+            <div class="country-meta-label">모법</div>
+            <div class="country-meta-value">PM Decree 35/2020<br/>GOVS Decision 1/2023</div>
+          </div>
+          <div class="country-meta-item">
+            <div class="country-meta-label">정본 언어</div>
+            <div class="country-meta-value">아랍어</div>
+          </div>
+          <div class="country-meta-item">
+            <div class="country-meta-label">표준</div>
+            <div class="country-meta-value">ES 429:2023 · ES 4249</div>
+          </div>
+        </div>
+        <p class="country-summary">단행 모법 없이 농업부·수의서비스총국 결정으로 운영. 2026.2부 IS EG Halal이 "Halal-ALQAHIRAH"로 사명 변경 후 단독 인증 체제 유지.</p>
+        <div class="country-tags">
+          <span class="tag mandatory">MANDATORY</span>
+          <span class="tag gov">정부청 + 위탁법인</span>
+          <span class="tag">아랍어 정본</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============ SECTION 3 : HIERARCHY DIAGRAMS ============ -->
+<section>
+  <div class="page">
+    <div class="section-head">
+      <div>
+        <div class="section-num">— III — Hierarchy</div>
+        <h2 class="section-title">국가별 법령 체계도</h2>
+      </div>
+      <div class="section-tagline">from constitution<br/>to procedure manual</div>
+    </div>
+
+    <p class="hierarchy-intro">각국의 할랄 규제 위계를 <strong>모법(act/law) → 시행령(regulation/order) → 고시·매뉴얼(notification/manual) → 표준(standard)</strong>의 다단 구조로 정렬합니다. 각 단계가 실제로 어떤 법형식으로 발현되는지가 국가마다 다르므로, 단계별 명칭을 정확히 매칭하는 것이 중요합니다. 특히 <strong style="color:var(--gold);">강제 인증 체계로 운영되는 인도네시아·UAE·사우디아라비아는 5단 위계의 다층 코퍼스</strong>로 다른 국가와 분량·복잡도가 현저히 달라, 풀폭 카드로 별도 정밀 분석을 제공합니다.</p>
+
+    <div class="hierarchy-grid">
+
+      <!-- Indonesia hierarchy — EXPANDED 5-TIER DOSSIER -->
+      <div class="hierarchy-card expanded">
+
+        <!-- HEAD -->
+        <div class="expanded-head">
+          <div class="expanded-head-left">
+            <div class="expanded-eyebrow">— Special Dossier · Indonesia 5-Tier Hierarchy —</div>
+            <div class="expanded-title">인도네시아 / Indonesia <em>— in depth</em></div>
+            <div class="expanded-subtitle">
+              인도네시아 할랄 규제는 단일 법령이 아닌 <strong style="color:var(--cream-soft);">5단 위계의 다층 코퍼스</strong>입니다. 법률·시행령·장관령·청장 결정·부처 협력 회람으로 이어지며, BPJPH 청장 결정과 부처 협력 회람이 매년 갱신되어 분량은 계속 증가 중입니다.
+            </div>
+          </div>
+          <div class="expanded-stats">
+            <div class="expanded-stat">
+              <div class="expanded-stat-num">5</div>
+              <div class="expanded-stat-label">Tiers</div>
+            </div>
+            <div class="expanded-stat">
+              <div class="expanded-stat-num">2024<span></span></div>
+              <div class="expanded-stat-label">Mandatory F&amp;B</div>
+            </div>
+            <div class="expanded-stat">
+              <div class="expanded-stat-num">2026<span></span></div>
+              <div class="expanded-stat-label">Foreign Cert.</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- TIER STACK -->
+        <div class="tier-stack">
+
+          <!-- TIER A: 법률 -->
+          <div class="tier-row">
+            <div class="tier-side">
+              <div class="tier-letter">A</div>
+              <div class="tier-name">법률 (UU)</div>
+              <div class="tier-name-en">Statutes — Parliament</div>
+            </div>
+            <div class="tier-body">
+              <ul class="tier-list">
+                <li class="priority">
+                  <strong>UU 33/2014</strong> 할랄제품보장법 (모법, JPH)
+                  <em>대통령 결재 2014.10.17 · 11장 68조 + 해설(Penjelasan)</em>
+                </li>
+                <li>
+                  <strong>UU 6/2023</strong> Cipta Kerja (일자리창출법) — UU 33/2014 일부 개정 반영
+                  <em>옴니버스법 중 할랄 관련 조항 발췌 적용</em>
+                </li>
+              </ul>
+            </div>
+            <div class="tier-tally">
+              <div class="tier-tally-num">2</div>
+              <div class="tier-tally-label">Statutes</div>
+              <div class="tier-tally-pages"><strong>모법</strong></div>
+            </div>
+          </div>
+
+          <!-- TIER B: 정부령·대통령령 -->
+          <div class="tier-row">
+            <div class="tier-side">
+              <div class="tier-letter">B</div>
+              <div class="tier-name">정부령·대통령령 (PP·Perpres)</div>
+              <div class="tier-name-en">Government &amp; Presidential Reg.</div>
+            </div>
+            <div class="tier-body">
+              <ul class="tier-list">
+                <li>
+                  <strong>PP 31/2019</strong> JPH 시행령 (구) — 2021년 폐지
+                  <em>UU 33/2014 시행령 1차본 · 현재는 참조용</em>
+                </li>
+                <li>
+                  <strong>PP 39/2021</strong> JPH 시행령 (Cipta Kerja 기반) — 2024년 PP 42로 대체
+                  <em>현행 시행령 직전 버전</em>
+                </li>
+                <li class="priority">
+                  <strong>PP 42/2024</strong> JPH 시행령 (현행)
+                  <em>2024년 시행 · PP 39/2021 대체 · 본문 + 부속서</em>
+                </li>
+                <li>
+                  <strong>Perpres 83/2015</strong> 종교부 조직 대통령령
+                  <em>BPJPH 설치 근거 일부 포함</em>
+                </li>
+              </ul>
+            </div>
+            <div class="tier-tally">
+              <div class="tier-tally-num">4</div>
+              <div class="tier-tally-label">Reg.</div>
+              <div class="tier-tally-pages"><strong>현행 시행령</strong></div>
+            </div>
+          </div>
+
+          <!-- TIER C: 종교부 장관령 -->
+          <div class="tier-row">
+            <div class="tier-side">
+              <div class="tier-letter">C</div>
+              <div class="tier-name">종교부 장관령·결정 (PMA·KMA)</div>
+              <div class="tier-name-en">MoRA Regulations &amp; Decisions</div>
+            </div>
+            <div class="tier-body">
+              <ul class="tier-list">
+                <li>
+                  <strong>PMA 42/2016</strong> BPJPH 조직·작업절차
+                  <em>BPJPH 신설 근거 장관령</em>
+                </li>
+                <li>
+                  <strong>PMA 26/2019</strong> 할랄 인증 시행 (구)
+                  <em>UU 33/2014 운영 세칙 · 일부 조항 유효</em>
+                </li>
+                <li>
+                  <strong>PMA 2/2022</strong> 국제 협력에 의한 JPH
+                  <em>외국 인증기관과의 MRA 근거</em>
+                </li>
+                <li>
+                  <strong>KMA 270/2016</strong> 종교부 업무 프로세스 맵
+                  <em>BPJPH 업무 흐름 도식 포함</em>
+                </li>
+                <li class="priority">
+                  <strong>KMA 748/2021</strong> 의무 인증 제품 종류 + 부속서
+                  <em>식음료·도살·물류 등 카테고리 명시 + 방대한 부속서</em>
+                </li>
+                <li>
+                  <strong>KMA (개정)</strong> 748/2021 부분 개정 (유제품 카테고리 이동 등)
+                  <em>F&amp;B 카테고리 분류 변경</em>
+                </li>
+              </ul>
+            </div>
+            <div class="tier-tally">
+              <div class="tier-tally-num">6</div>
+              <div class="tier-tally-label">PMA/KMA</div>
+              <div class="tier-tally-pages"><strong>장관급 세칙</strong></div>
+            </div>
+          </div>
+
+          <!-- TIER D: BPJPH 청장 결정 -->
+          <div class="tier-row">
+            <div class="tier-side">
+              <div class="tier-letter">D</div>
+              <div class="tier-name">BPJPH 청장 결정·회람</div>
+              <div class="tier-name-en">Head of BPJPH Decrees (Kepkaban)</div>
+            </div>
+            <div class="tier-body">
+              <ul class="tier-list">
+                <li>
+                  <strong>Kep 40/2022</strong> 할랄 라벨 지정 — 새 국가 할랄 로고 제정 (MUI → BPJPH)
+                </li>
+                <li>
+                  <strong>Kep 57/2021</strong> 자재 목록 (Material List) — 할랄·하람 자재 분류 부속서
+                </li>
+                <li>
+                  <strong>Kep 141/2021</strong> 서비스 요율 (구) — BPJPH 공공서비스 수수료 구조
+                </li>
+                <li>
+                  <strong>Kep 145/2022</strong> 할랄 로고·라벨 사용 — 포장 라벨 위치·크기 시행 세칙
+                </li>
+                <li>
+                  <strong>Kep 88/2023</strong> 145/2022 개정 — 수입 제품 라벨 형식 추가
+                </li>
+                <li class="priority">
+                  <strong>Kep 90/2023</strong> 외국 인증 등록 절차 (SHLN)
+                  <em>외국 인증기관 등록·갱신 절차 + 부속서</em>
+                </li>
+                <li>
+                  <strong>Kep 22/2024</strong> 141/2021 개정 — 2024년 LPH 감사 비용 한도·계산식
+                </li>
+                <li>
+                  <strong>Kep 48/2024</strong> 소상공인 SJPH 매뉴얼 — UMKM 자가신고 (Self-declare)
+                </li>
+                <li>
+                  <strong>Kep 221/2025</strong> 외국 인증 등록 절차 시행 — 90/2023 보완 + 부속서
+                </li>
+                <li>
+                  <strong>SE 7/2025</strong> 회람 — 라벨 표시 의무 강화 (2025.8.28 발효)
+                  <em>디지털 채널 게시 의무 신설</em>
+                </li>
+              </ul>
+            </div>
+            <div class="tier-tally">
+              <div class="tier-tally-num">10<span>+</span></div>
+              <div class="tier-tally-label">Decrees</div>
+              <div class="tier-tally-pages"><strong>매년 갱신</strong></div>
+            </div>
+          </div>
+
+          <!-- TIER E: 부처 협력 규정 -->
+          <div class="tier-row">
+            <div class="tier-side">
+              <div class="tier-letter">E</div>
+              <div class="tier-name">부처 협력 규정·고시</div>
+              <div class="tier-name-en">Inter-Ministry / Sector (Lintas K/L)</div>
+            </div>
+            <div class="tier-body">
+              <ul class="tier-list">
+                <li>
+                  <strong>BPOM 31/2018</strong> 가공식품 라벨링 — 식약청 규정·돼지·알코올 표시
+                </li>
+                <li>
+                  <strong>Kementan</strong> 도살장 관련 시행규정 — 농업부 가축·가금 도살 시설 기준
+                </li>
+                <li>
+                  <strong>Kemenperin</strong> 산업부 협력 규정 — 식품 산업·원료 등록 협력
+                </li>
+                <li>
+                  <strong>Kemendag</strong> 무역부 유통 규정 — 할랄 표시 위반 단속·시장 모니터링
+                </li>
+                <li>
+                  <strong>Kemenkes</strong> 보건부 의약품·화장품 규정
+                </li>
+                <li>
+                  <strong>BSN/KAN</strong> 표준화·인정 협력 — 국가표준청·국가인정원
+                </li>
+                <li>
+                  <strong>Bea Cukai</strong> 관세청 통관 회람 — 수입 할랄 제품 통관 절차
+                </li>
+                <li>
+                  <strong>각 부처 회람</strong> 그 외 통보·고시 — 국방부·교육부·종교부 등
+                </li>
+              </ul>
+            </div>
+            <div class="tier-tally">
+              <div class="tier-tally-num">10<span>+</span></div>
+              <div class="tier-tally-label">Cross-K/L</div>
+              <div class="tier-tally-pages"><strong>부처 회람</strong></div>
+            </div>
+          </div>
+
+          <!-- TOTALS ROW -->
+          <div class="tier-row totals">
+            <div class="tier-side">
+              <div class="tier-letter">∑</div>
+              <div class="tier-name">합계 — 5단 위계 코퍼스</div>
+              <div class="tier-name-en">Aggregate corpus</div>
+            </div>
+            <div class="tier-body">
+              모법(UU)부터 부처 회람까지 — 5단 위계 전반에 걸쳐 지속적으로 갱신되는 다층 규제 구조
+            </div>
+            <div class="tier-tally">
+              <div class="tier-tally-num">5</div>
+              <div class="tier-tally-label">Tiers</div>
+              <div class="tier-tally-pages"><strong>다층 코퍼스</strong></div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- FOOTER NOTES -->
+        <div class="expanded-footer">
+          <div class="ef-card">
+            <div class="ef-icon">!</div>
+            <div class="ef-title">단행 법령 수의 정의</div>
+            <div class="ef-body">
+              협의(UU·PP·PMA만)로 보면 <strong>10여 건</strong>, 청장 결정·회람까지 포함 시 <strong>25건 이상</strong>, 부처 협력·통관 회람까지 모두 포함하면 <strong>40건 이상</strong>으로 확장됩니다. 어느 범위까지 추적할지는 진출 카테고리·공정에 따라 달라집니다.
+            </div>
+          </div>
+          <div class="ef-card">
+            <div class="ef-icon">↻</div>
+            <div class="ef-title">개정 빈도가 매우 높음</div>
+            <div class="ef-body">
+              시행령이 5년 사이 PP 31/2019 → 39/2021 → 42/2024로 두 차례 전면 교체되었으며, BPJPH 청장 결정은 매년 신설됩니다. <strong>2026년 외국 식품 의무 인증 시한</strong>(10.17)을 앞두고 추가 회람이 예상됩니다.
+            </div>
+          </div>
+          <div class="ef-card">
+            <div class="ef-icon">★</div>
+            <div class="ef-title">실무 핵심 4건</div>
+            <div class="ef-body">
+              <strong>UU 33/2014</strong> (모법) · <strong>PP 42/2024</strong> (현행 시행령) · <strong>KMA 748/2021</strong> (의무 인증 카테고리) · <strong>Kep 90/2023</strong> (외국 인증 등록)으로 진출 실무의 핵심 골격이 구성됩니다.
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- UAE hierarchy — EXPANDED 5-TIER DOSSIER -->
+      <div class="hierarchy-card expanded">
+
+        <!-- HEAD -->
+        <div class="expanded-head">
+          <div class="expanded-head-left">
+            <div class="expanded-eyebrow">— Special Dossier · UAE 5-Tier Hierarchy —</div>
+            <div class="expanded-title">아랍에미리트 / United Arab Emirates <em>— in depth</em></div>
+            <div class="expanded-subtitle">
+              UAE 할랄 규제는 <strong style="color:var(--cream-soft);">내각결의(Cabinet Resolution)를 정점으로</strong>, MOIAT 결정·인증 스킴·국가표준(UAE.S)·걸프(GSO)/SMIIC 채택본까지 5단 위계로 운영됩니다. 2014년 Cabinet Resolution No. 10이 단일 모법, MOIAT(구 ESMA)가 국가할랄마크(Halal National Mark)와 인증기관 등록을 통합 관리합니다.
+            </div>
+          </div>
+          <div class="expanded-stats">
+            <div class="expanded-stat">
+              <div class="expanded-stat-num">5</div>
+              <div class="expanded-stat-label">Tiers</div>
+            </div>
+            <div class="expanded-stat">
+              <div class="expanded-stat-num">2014<span></span></div>
+              <div class="expanded-stat-label">Cab. Res. No. 10</div>
+            </div>
+            <div class="expanded-stat">
+              <div class="expanded-stat-num">1</div>
+              <div class="expanded-stat-label">National Mark</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- TIER STACK -->
+        <div class="tier-stack">
+
+          <!-- TIER A: 연방법률·내각결의 -->
+          <div class="tier-row">
+            <div class="tier-side">
+              <div class="tier-letter">A</div>
+              <div class="tier-name">연방법률·내각결의</div>
+              <div class="tier-name-en">Federal Law &amp; Cabinet Resolution</div>
+            </div>
+            <div class="tier-body">
+              <ul class="tier-list">
+                <li class="priority">
+                  <strong>Cabinet Resolution No. 10/2014</strong> UAE System for Control of Halal Products (모법)
+                  <em>UAE 할랄 제품 통제 시스템의 단일 근거 결의 — 인증·등록·국가마크의 모든 권한 부여</em>
+                </li>
+                <li>
+                  <strong>Federal Law No. 28/2001</strong> ESMA 설립법 (구)
+                  <em>표준화·계측 모법 · 2020년 권한이 MOIAT으로 이관됨</em>
+                </li>
+                <li>
+                  <strong>Federal Law No. 10/2018</strong> 적합성평가 일반법
+                  <em>적합성평가·인증기관 인정 일반 모법 (할랄에도 적용)</em>
+                </li>
+                <li>
+                  <strong>Federal Decree-Law No. 17/2018</strong> Trade Marks (간접)
+                  <em>국가할랄마크의 상표권 보호 근거</em>
+                </li>
+              </ul>
+            </div>
+            <div class="tier-tally">
+              <div class="tier-tally-num">4</div>
+              <div class="tier-tally-label">Statutes</div>
+              <div class="tier-tally-pages"><strong>모법군</strong></div>
+            </div>
+          </div>
+
+          <!-- TIER B: 위원회·이사회 결정 -->
+          <div class="tier-row">
+            <div class="tier-side">
+              <div class="tier-letter">B</div>
+              <div class="tier-name">위원회·이사회 결정</div>
+              <div class="tier-name-en">Board &amp; Committee Decisions</div>
+            </div>
+            <div class="tier-body">
+              <ul class="tier-list">
+                <li class="priority">
+                  <strong>Chairman of ESMA Board's Decision No. 37/2014</strong> 등록 도살장 목록 채택
+                  <em>Cabinet Res. 10/2014 시행 위한 1차 행정 결정</em>
+                </li>
+                <li>
+                  <strong>MOIAT 권한 이관 결정 (2020)</strong> ESMA → MOIAT
+                  <em>2020년 정부 개편 시 산업첨단기술부 이관 · 국가할랄마크 권한도 함께 이전</em>
+                </li>
+                <li>
+                  <strong>MOIAT 부령·이사회 결정</strong> 인증기관 등록·갱신 세칙
+                  <em>인증기관 자격·평가 기준·갱신 주기 결정</em>
+                </li>
+                <li>
+                  <strong>MOIAT Board Resolutions</strong> 국가할랄마크 운영 결정
+                  <em>마크 디자인·사용 조건·라이선스 정책</em>
+                </li>
+              </ul>
+            </div>
+            <div class="tier-tally">
+              <div class="tier-tally-num">4<span>+</span></div>
+              <div class="tier-tally-label">Decisions</div>
+              <div class="tier-tally-pages"><strong>행정 결정</strong></div>
+            </div>
+          </div>
+
+          <!-- TIER C: 시행 절차·등록 스킴 -->
+          <div class="tier-row">
+            <div class="tier-side">
+              <div class="tier-letter">C</div>
+              <div class="tier-name">시행 절차·등록 스킴</div>
+              <div class="tier-name-en">Implementation &amp; Registration Schemes</div>
+            </div>
+            <div class="tier-body">
+              <ul class="tier-list">
+                <li class="priority">
+                  <strong>UAE Scheme for Halal Products</strong> WTO/TBT 통보본 (G/TBT/N/ARE)
+                  <em>국가할랄마크 부여 절차·심사 단계·갱신 등 운영 스킴</em>
+                </li>
+                <li>
+                  <strong>Halal Certification Body Registration Procedure</strong> MOIAT 디지털 플랫폼 절차
+                  <em>인증기관 등록·인정 적격성·서류 요건</em>
+                </li>
+                <li>
+                  <strong>Renewal of Halal Cert. Body Registration</strong> 갱신 절차
+                  <em>유효 인정증·범위·수수료 갱신 메커니즘</em>
+                </li>
+                <li>
+                  <strong>Halal National Mark Licensing Scheme</strong> 단일 라벨 사용권 부여 체계
+                  <em>제품·서비스·생산시스템 단위 마크 부여 — 자율(optional) 마크지만 시장에서 사실상 표준</em>
+                </li>
+              </ul>
+            </div>
+            <div class="tier-tally">
+              <div class="tier-tally-num">4</div>
+              <div class="tier-tally-label">Schemes</div>
+              <div class="tier-tally-pages"><strong>운영 스킴</strong></div>
+            </div>
+          </div>
+
+          <!-- TIER D: 국가표준 (UAE.S) -->
+          <div class="tier-row">
+            <div class="tier-side">
+              <div class="tier-letter">D</div>
+              <div class="tier-name">국가표준 (UAE.S)</div>
+              <div class="tier-name-en">UAE National Standards</div>
+            </div>
+            <div class="tier-body">
+              <ul class="tier-list">
+                <li class="priority">
+                  <strong>UAE.S 2055-1:2015</strong> Halal Foods — 일반 요건
+                  <em>식품 분야 핵심 표준 (GSO 2055-1과 정합)</em>
+                </li>
+                <li>
+                  <strong>UAE.S 2055-2:2016</strong> Halal Certification Bodies — 일반 요건
+                  <em>인증기관 운영·자격 표준 (ISO/IEC 17065 기반)</em>
+                </li>
+                <li>
+                  <strong>UAE.S 2055-4:2014</strong> Cosmetics &amp; Personal Care
+                  <em>화장품·퍼스널케어 분야 할랄 요건</em>
+                </li>
+                <li>
+                  <strong>UAE.S 993:2022</strong> Animal Slaughtering Requirements
+                  <em>도살 요건 (이슬람 율법 기반) · 2022 개정판</em>
+                </li>
+                <li>
+                  <strong>UAE.S OIC/SMIIC 1</strong> SMIIC 식품 표준 자국 채택
+                  <em>OIC/SMIIC 1을 UAE 국가표준으로 직접 채택</em>
+                </li>
+                <li>
+                  <strong>UAE.S OIC/SMIIC 2</strong> SMIIC 인증기관 표준 자국 채택
+                  <em>OIC/SMIIC 2를 UAE 국가표준으로 직접 채택</em>
+                </li>
+              </ul>
+            </div>
+            <div class="tier-tally">
+              <div class="tier-tally-num">6</div>
+              <div class="tier-tally-label">UAE.S</div>
+              <div class="tier-tally-pages"><strong>국가표준</strong></div>
+            </div>
+          </div>
+
+          <!-- TIER E: 걸프·국제 표준 + 에미리트 단위 -->
+          <div class="tier-row">
+            <div class="tier-side">
+              <div class="tier-letter">E</div>
+              <div class="tier-name">걸프 표준 + 에미리트 단위</div>
+              <div class="tier-name-en">GSO Standards &amp; Emirate-Level</div>
+            </div>
+            <div class="tier-body">
+              <ul class="tier-list">
+                <li>
+                  <strong>GSO 2055-1:2015</strong> Halal Foods (걸프표준)
+                  <em>UAE 시장에서 UAE.S와 함께 통용 — 적합 인정 시 GCC 전체 통용</em>
+                </li>
+                <li>
+                  <strong>GSO 2055-2:2021</strong> Halal Certification Bodies
+                  <em>걸프 차원 인증기관 표준 · UAE에서도 적용 가능</em>
+                </li>
+                <li>
+                  <strong>GSO 993:2015</strong> Animal Slaughtering (걸프표준)
+                  <em>도살 요건 걸프 통합 표준</em>
+                </li>
+                <li>
+                  <strong>DMS 032 (Dubai Municipality Standard)</strong> 두바이 시 차원 표준
+                  <em>두바이 사업장 대상 — DM-DCLD 인증 스킴과 결합</em>
+                </li>
+                <li>
+                  <strong>DM-DCLD-RD-DP34-7101</strong> Dubai Municipality 할랄 인증 스킴
+                  <em>두바이 시정부의 할랄 인증 운영 절차 (UAE.S/GSO 기반)</em>
+                </li>
+                <li>
+                  <strong>EIAC Guidelines</strong> Emirates International Accreditation Centre
+                  <em>인증기관 인정의 토대가 되는 가이드라인</em>
+                </li>
+              </ul>
+            </div>
+            <div class="tier-tally">
+              <div class="tier-tally-num">6<span>+</span></div>
+              <div class="tier-tally-label">GSO/Emirate</div>
+              <div class="tier-tally-pages"><strong>병행 적용</strong></div>
+            </div>
+          </div>
+
+          <!-- TOTALS ROW -->
+          <div class="tier-row totals">
+            <div class="tier-side">
+              <div class="tier-letter">∑</div>
+              <div class="tier-name">합계 — 5단 위계 통합</div>
+              <div class="tier-name-en">Aggregate corpus</div>
+            </div>
+            <div class="tier-body">
+              내각결의·MOIAT 결정·운영 스킴·국가표준·걸프표준이 단일 국가할랄마크로 수렴
+            </div>
+            <div class="tier-tally">
+              <div class="tier-tally-num">5</div>
+              <div class="tier-tally-label">Tiers</div>
+              <div class="tier-tally-pages"><strong>통합형</strong></div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- FOOTER NOTES -->
+        <div class="expanded-footer">
+          <div class="ef-card">
+            <div class="ef-icon">!</div>
+            <div class="ef-title">단일 모법 + 단일 마크 구조</div>
+            <div class="ef-body">
+              인도네시아·사우디와 달리 UAE는 <strong>Cabinet Resolution 10/2014라는 단일 모법</strong>으로 전 체계가 운영되며, 시장 표시도 <strong>Halal National Mark 단일 라벨</strong>로 수렴됩니다. 별도의 단행법 없이 결의·결정·표준의 위계 구조로 작동합니다.
+            </div>
+          </div>
+          <div class="ef-card">
+            <div class="ef-icon">↻</div>
+            <div class="ef-title">권한 이관 — ESMA → MOIAT (2020)</div>
+            <div class="ef-body">
+              2020년 정부 개편으로 ESMA의 표준·인증 권한이 <strong>MOIAT(산업첨단기술부)</strong>로 이관되었습니다. 일부 영문 자료가 ESMA를 그대로 표기하고 있으므로, 최신 결정·통보는 MOIAT 디지털 플랫폼(moiat.gov.ae)에서 확인이 필요합니다.
+            </div>
+          </div>
+          <div class="ef-card">
+            <div class="ef-icon">★</div>
+            <div class="ef-title">실무 핵심 — 4축</div>
+            <div class="ef-body">
+              <strong>Cabinet Res. 10/2014</strong> (모법) · <strong>UAE.S 2055-1/2/4 · 993</strong> (국가표준) · <strong>UAE Scheme for Halal Products</strong> (운영 스킴) · <strong>Halal National Mark Licensing</strong> (시장 표시)이 진출 실무의 핵심 골격을 이룹니다.
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Saudi hierarchy — EXPANDED 5-TIER DOSSIER -->
+      <div class="hierarchy-card expanded">
+
+        <!-- HEAD -->
+        <div class="expanded-head">
+          <div class="expanded-head-left">
+            <div class="expanded-eyebrow">— Special Dossier · Saudi Arabia 5-Tier Hierarchy —</div>
+            <div class="expanded-title">사우디아라비아 / Saudi Arabia <em>— in depth</em></div>
+            <div class="expanded-subtitle">
+              사우디는 <strong style="color:var(--cream-soft);">단행 할랄법이 부재</strong>한 대신, 식품법(Royal Decree M/1)을 정점으로 SFDA 이사회 결의, SFDA 회람·결정, Saudi Halal Center(SHC) 운영 절차, 걸프(GSO) 표준의 SFDA.FD 채택본까지 5단으로 운영됩니다. SHC가 외국 인증기관 인정 게이트웨이 역할을 합니다.
+            </div>
+          </div>
+          <div class="expanded-stats">
+            <div class="expanded-stat">
+              <div class="expanded-stat-num">5</div>
+              <div class="expanded-stat-label">Tiers</div>
+            </div>
+            <div class="expanded-stat">
+              <div class="expanded-stat-num">2014<span></span></div>
+              <div class="expanded-stat-label">Food Law M/1</div>
+            </div>
+            <div class="expanded-stat">
+              <div class="expanded-stat-num">2020<span></span></div>
+              <div class="expanded-stat-label">Mandatory Cert.</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- TIER STACK -->
+        <div class="tier-stack">
+
+          <!-- TIER A: 왕령·각료회의 결의 -->
+          <div class="tier-row">
+            <div class="tier-side">
+              <div class="tier-letter">A</div>
+              <div class="tier-name">왕령·각료회의 결의</div>
+              <div class="tier-name-en">Royal Decree &amp; Council of Ministers</div>
+            </div>
+            <div class="tier-body">
+              <ul class="tier-list">
+                <li class="priority">
+                  <strong>Royal Decree No. M/1 of 1436H (2014)</strong> Food Law (식품법)
+                  <em>식품 안전·등록·라벨링 일반법 — 할랄 의무의 사실상 모법 기능</em>
+                </li>
+                <li>
+                  <strong>Royal Decree No. M/6 of 1428H (2007)</strong> SFDA 설립법
+                  <em>SFDA의 법인격·권한·이사회 구성 근거</em>
+                </li>
+                <li>
+                  <strong>Council of Ministers Resolution No. 1 of 1424H (2003)</strong> SFDA 설치 결의
+                  <em>SFDA를 각료회의 직속 독립 기관으로 신설하는 최초 결의</em>
+                </li>
+                <li>
+                  <strong>Royal Decree No. M/36 of 1446H (2024)</strong> Standards and Quality Law / Product Safety Law
+                  <em>2024년 개편된 표준품질법·제품안전법 — SFDA 관할 외 분야에 적용 (간접 영향)</em>
+                </li>
+              </ul>
+            </div>
+            <div class="tier-tally">
+              <div class="tier-tally-num">4</div>
+              <div class="tier-tally-label">Decrees</div>
+              <div class="tier-tally-pages"><strong>왕령·결의</strong></div>
+            </div>
+          </div>
+
+          <!-- TIER B: SFDA 이사회 결의·시행 규정 -->
+          <div class="tier-row">
+            <div class="tier-side">
+              <div class="tier-letter">B</div>
+              <div class="tier-name">SFDA 이사회 결의·시행 규정</div>
+              <div class="tier-name-en">SFDA Board Resolutions &amp; Implementing Reg.</div>
+            </div>
+            <div class="tier-body">
+              <ul class="tier-list">
+                <li>
+                  <strong>SFDA Board Resolution No. 7-7-1428H</strong> SFDA 정관 (Bylaws)
+                  <em>SFDA 운영·조직 규칙 — 식품·의약품·의료기기 분야별 권한 분장</em>
+                </li>
+                <li class="priority">
+                  <strong>Implementing Regulations of Food Law (M/1)</strong> 식품법 시행 규정
+                  <em>SFDA 이사회 의결로 발효 — 등록·라이선싱·할랄 인증 요구의 세부 근거</em>
+                </li>
+                <li>
+                  <strong>SFDA Board Resolution — Saudi Halal Center 설립</strong>
+                  <em>SHC를 SFDA 산하 기관으로 정식 설치하는 이사회 결의</em>
+                </li>
+                <li>
+                  <strong>SFDA 이사회 의결 — 의무 인증 카테고리 확대 (2023)</strong>
+                  <em>2020년 1차 의무화에 이어 2023년 가공식품 등 카테고리 확대 의결</em>
+                </li>
+              </ul>
+            </div>
+            <div class="tier-tally">
+              <div class="tier-tally-num">4</div>
+              <div class="tier-tally-label">Resolutions</div>
+              <div class="tier-tally-pages"><strong>이사회 의결</strong></div>
+            </div>
+          </div>
+
+          <!-- TIER C: SFDA 회람·결정 -->
+          <div class="tier-row">
+            <div class="tier-side">
+              <div class="tier-letter">C</div>
+              <div class="tier-name">SFDA 회람·결정</div>
+              <div class="tier-name-en">SFDA Circulars &amp; Decisions</div>
+            </div>
+            <div class="tier-body">
+              <ul class="tier-list">
+                <li class="priority">
+                  <strong>SFDA Decision (Nov. 2020)</strong> 수입육·가금 의무 할랄 인증 시행
+                  <em>모든 수입 육류·가금에 할랄 인증서 + 선적별 할랄 선적증명서 의무화</em>
+                </li>
+                <li>
+                  <strong>SFDA Circular (2023)</strong> 의무 인증 카테고리 확대
+                  <em>가공·조미·통조림 육류 + 동물성 성분 함유 가공식품으로 확대</em>
+                </li>
+                <li>
+                  <strong>SFDA Halal Certificate Requirements</strong> 할랄 인증서 요건 회람
+                  <em>SFDA 인정 인증기관 발행 인증서만 통관 시 인정</em>
+                </li>
+                <li>
+                  <strong>SFDA Halal Shipment Certificate Requirements</strong> 선적별 증명 요건
+                  <em>매 선적별 별도 증명서 발급 의무 — 통관 단계에서 검증</em>
+                </li>
+                <li>
+                  <strong>SFDA Decision (2024~2025)</strong> 비인정 인증서 통관 거부 강화
+                  <em>SHC 비인정 기관 발행 인증서에 대한 단속·제재 강화 회람</em>
+                </li>
+              </ul>
+            </div>
+            <div class="tier-tally">
+              <div class="tier-tally-num">5</div>
+              <div class="tier-tally-label">Circulars</div>
+              <div class="tier-tally-pages"><strong>운영 회람</strong></div>
+            </div>
+          </div>
+
+          <!-- TIER D: Saudi Halal Center 운영 절차 -->
+          <div class="tier-row">
+            <div class="tier-side">
+              <div class="tier-letter">D</div>
+              <div class="tier-name">Saudi Halal Center 운영 절차</div>
+              <div class="tier-name-en">Saudi Halal Center (SHC) Procedures</div>
+            </div>
+            <div class="tier-body">
+              <ul class="tier-list">
+                <li class="priority">
+                  <strong>SHC Foreign Halal Certification Body Recognition Procedure</strong> 외국 인증기관 인정 절차
+                  <em>한국 등 비무슬림 국가 인증기관의 SHC 등록·평가·갱신 절차 — 진출 게이트웨이</em>
+                </li>
+                <li>
+                  <strong>SHC Recognition Scheme Document</strong> 인정 스킴 문서
+                  <em>인정 신청·심사·발급·재평가 단계의 운영 매뉴얼</em>
+                </li>
+                <li>
+                  <strong>SHC Certificate Format &amp; Issuance Requirements</strong> 인증서 양식·발급 요건
+                  <em>인증서 정본 양식·아랍어 표기·QR/시리얼 등 표준화 요건</em>
+                </li>
+                <li>
+                  <strong>SHC Approved Body List Maintenance</strong> 등록기관 목록 운영
+                  <em>halalsfda.gov.sa 공식 목록 관리 — 정기 갱신</em>
+                </li>
+                <li>
+                  <strong>SHC Surveillance &amp; Suspension Rules</strong> 사후관리·정지 규정
+                  <em>위반 시 정지·취소·재등록 절차</em>
+                </li>
+              </ul>
+            </div>
+            <div class="tier-tally">
+              <div class="tier-tally-num">5</div>
+              <div class="tier-tally-label">Procedures</div>
+              <div class="tier-tally-pages"><strong>SHC 절차</strong></div>
+            </div>
+          </div>
+
+          <!-- TIER E: 표준 — GSO + SFDA.FD 채택본 -->
+          <div class="tier-row">
+            <div class="tier-side">
+              <div class="tier-letter">E</div>
+              <div class="tier-name">표준 — GSO + SFDA.FD 채택본</div>
+              <div class="tier-name-en">GSO Standards &amp; SFDA.FD Adoption</div>
+            </div>
+            <div class="tier-body">
+              <ul class="tier-list">
+                <li class="priority">
+                  <strong>SFDA.FD/GSO 2055-1</strong> Halal Foods — 일반 요건
+                  <em>GSO 2055-1을 SFDA 식품 표준으로 정식 채택 (FD 접두어)</em>
+                </li>
+                <li>
+                  <strong>SFDA.FD/GSO 2055-2</strong> Halal Certification Bodies
+                  <em>인증기관 운영 표준 — SHC가 인정 평가 시 적용</em>
+                </li>
+                <li>
+                  <strong>SFDA.FD/GSO 993</strong> Animal Slaughtering Requirements
+                  <em>도살 요건 — 수입 육류 통관 시 핵심 적용 표준</em>
+                </li>
+                <li>
+                  <strong>SFDA.FD/GSO 9:2013</strong> Labeling of Prepackaged Food
+                  <em>포장 식품 라벨링 표준 — 아랍어 표기 의무 등 명시</em>
+                </li>
+                <li>
+                  <strong>SFDA.FD/GSO 2500</strong> Food Additives (관련)
+                  <em>식품첨가물 표준 — 할랄 적격성 판정 시 참조</em>
+                </li>
+                <li>
+                  <strong>SASO standards (병행)</strong> 사우디 표준청 채택본
+                  <em>SASO 번호로도 동일 GSO 표준이 등재됨 — 이중 식별</em>
+                </li>
+              </ul>
+            </div>
+            <div class="tier-tally">
+              <div class="tier-tally-num">6<span>+</span></div>
+              <div class="tier-tally-label">SFDA.FD/GSO</div>
+              <div class="tier-tally-pages"><strong>채택 표준</strong></div>
+            </div>
+          </div>
+
+          <!-- TOTALS ROW -->
+          <div class="tier-row totals">
+            <div class="tier-side">
+              <div class="tier-letter">∑</div>
+              <div class="tier-name">합계 — 5단 위계 통합</div>
+              <div class="tier-name-en">Aggregate corpus</div>
+            </div>
+            <div class="tier-body">
+              왕령·SFDA 이사회 결의·SFDA 회람·SHC 절차·GSO 채택본의 결합 — 단행 할랄법이 없는 결합형 구조
+            </div>
+            <div class="tier-tally">
+              <div class="tier-tally-num">5</div>
+              <div class="tier-tally-label">Tiers</div>
+              <div class="tier-tally-pages"><strong>결합형</strong></div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- FOOTER NOTES -->
+        <div class="expanded-footer">
+          <div class="ef-card">
+            <div class="ef-icon">!</div>
+            <div class="ef-title">단행 할랄법 부재 — 결합형 구조</div>
+            <div class="ef-body">
+              인도네시아의 UU 33/2014처럼 <strong>단일 할랄 모법이 없습니다</strong>. 식품법(M/1) + SFDA 시행 규정 + SHC 절차 + GSO 채택 표준의 결합으로 운영되므로, 진출 시 어느 한 문서만으로는 전체 그림이 파악되지 않습니다.
+            </div>
+          </div>
+          <div class="ef-card">
+            <div class="ef-icon">↻</div>
+            <div class="ef-title">SHC 인정 — 진입의 게이트웨이</div>
+            <div class="ef-body">
+              사우디 통관에는 <strong>SHC 인정 인증기관 발행 인증서</strong>만 인정됩니다. 한국 기업은 SHC 등록 인증기관(halalsfda.gov.sa 공식 목록 참조)을 통해 인증을 받아야 하며, 비인정 기관 인증서는 통관에서 거부됩니다.
+            </div>
+          </div>
+          <div class="ef-card">
+            <div class="ef-icon">★</div>
+            <div class="ef-title">실무 핵심 — 4축</div>
+            <div class="ef-body">
+              <strong>Royal Decree M/1</strong> (식품법) · <strong>SFDA 2020 의무화 결정 + 2023 확대</strong> (의무 카테고리) · <strong>SHC 외국 인증 등록 절차</strong> (게이트웨이) · <strong>SFDA.FD/GSO 2055-1·993</strong> (적용 표준)이 진출 실무의 핵심 골격을 이룹니다.
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Malaysia hierarchy -->
+      <div class="hierarchy-card">
+        <div class="hier-head">
+          <div class="hier-country">말레이시아 / Malaysia</div>
+          <div class="hier-num">04</div>
+        </div>
+        <div class="hier-tree">
+          <div class="hier-level top">
+            <div class="hier-level-content">Trade Descriptions Act 2011 (Act 730)</div>
+          </div>
+          <div class="hier-level">
+            <div class="hier-level-label">↳ Order (시행 명령)</div>
+            <div class="hier-level-content">TD (Definition of Halal) Order 2011<br/>TD (Certification and Marking of Halal) Order 2011</div>
+          </div>
+          <div class="hier-level">
+            <div class="hier-level-label">↳ Manual (절차)</div>
+            <div class="hier-level-content">MPPHM (Manual Procedure for Malaysia Halal Certification, 3차 개정)</div>
+            <div class="hier-level-meta">행정 매뉴얼이나 사실상 강제력</div>
+          </div>
+          <div class="hier-level">
+            <div class="hier-level-label">↳ Standard (국가표준)</div>
+            <div class="hier-level-content">MS 1500 (식품) · MS 2200 (화장품) · MS 2400 (물류)</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Türkiye hierarchy -->
+      <div class="hierarchy-card">
+        <div class="hier-head">
+          <div class="hier-country">튀르키예 / Türkiye</div>
+          <div class="hier-num">05</div>
+        </div>
+        <div class="hier-tree">
+          <div class="hier-level top">
+            <div class="hier-level-content">Law No. 7060 (2017) · Law No. 7408 (2022)</div>
+          </div>
+          <div class="hier-level">
+            <div class="hier-level-label">↳ Yönetmelik (시행령)</div>
+            <div class="hier-level-content">HAK 운영 규칙 · 할랄 적합성평가 규칙</div>
+          </div>
+          <div class="hier-level">
+            <div class="hier-level-label">↳ Guideline</div>
+            <div class="hier-level-content">AKR-Rh-002 — Guideline on Halal Accreditation</div>
+          </div>
+          <div class="hier-level">
+            <div class="hier-level-label">↳ Mandatory Standards</div>
+            <div class="hier-level-content">OIC/SMIIC 1:2019 · 2:2019 (Law 7408에 의해 강제 적용)</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Brunei hierarchy -->
+      <div class="hierarchy-card">
+        <div class="hier-head">
+          <div class="hier-country">브루나이 / Brunei</div>
+          <div class="hier-num">06</div>
+        </div>
+        <div class="hier-tree">
+          <div class="hier-level top">
+            <div class="hier-level-content">Halal Meat Act (Cap. 183, 1998)</div>
+          </div>
+          <div class="hier-level">
+            <div class="hier-level-label">↳ Subsidiary Order</div>
+            <div class="hier-level-content">Halal Certificate and Halal Label Order 2005 (S 39/05)<br/>2017 · 2020 개정</div>
+          </div>
+          <div class="hier-level">
+            <div class="hier-level-label">↳ Standard (PBD)</div>
+            <div class="hier-level-content">Brunei Darussalam Standard PBD 24:2007 — Halal Food</div>
+          </div>
+          <div class="hier-level">
+            <div class="hier-level-label">↳ Guideline (BCG)</div>
+            <div class="hier-level-content">BCG 1 (인증 가이드) · BCG 2 (심사 가이드)</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Singapore hierarchy -->
+      <div class="hierarchy-card">
+        <div class="hier-head">
+          <div class="hier-country">싱가포르 / Singapore</div>
+          <div class="hier-num">07</div>
+        </div>
+        <div class="hier-tree">
+          <div class="hier-level top">
+            <div class="hier-level-content">Administration of Muslim Law Act 1966 (Cap. 3)</div>
+          </div>
+          <div class="hier-level">
+            <div class="hier-level-label">↳ Section 88A·88AA·88B·88C</div>
+            <div class="hier-level-content">MUIS 인증 권한 · 외국 인증기관 인정 근거</div>
+          </div>
+          <div class="hier-level">
+            <div class="hier-level-label">↳ Subsidiary Legislation</div>
+            <div class="hier-level-content">Administration of Muslim Law (Halal Certificates) Rules (SL 497/2005, 최신 S 125/2023)</div>
+          </div>
+          <div class="hier-level">
+            <div class="hier-level-label">↳ MUIS Standards</div>
+            <div class="hier-level-content">SMHS (Singapore MUIS Halal Standards)<br/>HCC (7개 인증 스킴별 조건)</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Pakistan hierarchy -->
+      <div class="hierarchy-card">
+        <div class="hier-head">
+          <div class="hier-country">파키스탄 / Pakistan</div>
+          <div class="hier-num">08</div>
+        </div>
+        <div class="hier-tree">
+          <div class="hier-level top">
+            <div class="hier-level-content">Pakistan Halal Authority Act, 2016 (Act VIII of 2016)</div>
+          </div>
+          <div class="hier-level">
+            <div class="hier-level-label">↳ Regulations</div>
+            <div class="hier-level-content">Pakistan Halal (Certification Marks) Regulations, 2021</div>
+          </div>
+          <div class="hier-level">
+            <div class="hier-level-label">↳ National Standards (PSQCA)</div>
+            <div class="hier-level-content">PS 3733 (식품·도살) · PS 4992 (인증기관) · PS 5442 (의약품) · PS 5319 (화장품)</div>
+          </div>
+          <div class="hier-level">
+            <div class="hier-level-label">↳ Provincial Layer</div>
+            <div class="hier-level-content">PHDA (Punjab Halal Development Agency) · PFA</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Thailand hierarchy -->
+      <div class="hierarchy-card">
+        <div class="hier-head">
+          <div class="hier-country">태국 / Thailand</div>
+          <div class="hier-num">09</div>
+        </div>
+        <div class="hier-tree">
+          <div class="hier-level top">
+            <div class="hier-level-content">Administration of Islamic Organizations Act B.E. 2540 (1997)</div>
+          </div>
+          <div class="hier-level">
+            <div class="hier-level-label">↳ CICOT Regulation</div>
+            <div class="hier-level-content">Regulation on the Management of Halal Affairs B.E. 2558 (2015)</div>
+          </div>
+          <div class="hier-level">
+            <div class="hier-level-label">↳ Announcements</div>
+            <div class="hier-level-content">Announcement No. 1/2559 (2016) — 인증 절차·로고<br/>Halal Affairs Dept. No. 4/2564 (2021)</div>
+          </div>
+          <div class="hier-level">
+            <div class="hier-level-label">↳ Scientific Support</div>
+            <div class="hier-level-content">Halal Standard Institute of Thailand (HSIT)<br/>Halal Science Center, Chulalongkorn Univ.</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Egypt hierarchy -->
+      <div class="hierarchy-card">
+        <div class="hier-head">
+          <div class="hier-country">이집트 / Egypt</div>
+          <div class="hier-num">10</div>
+        </div>
+        <div class="hier-tree">
+          <div class="hier-level top">
+            <div class="hier-level-content">단행 모법 부재 — 종합 규제 체계</div>
+          </div>
+          <div class="hier-level">
+            <div class="hier-level-label">↳ PM Decree</div>
+            <div class="hier-level-content">Prime Minister Decree No. 35/2020 — IS EG Halal 설립</div>
+          </div>
+          <div class="hier-level">
+            <div class="hier-level-label">↳ GOVS Decision</div>
+            <div class="hier-level-content">GOVS Decision No. 1/2023 — 외국 할랄 인증기관 등록 절차<br/>Customs Circular 17/2024 — 동물성 식품 의무</div>
+          </div>
+          <div class="hier-level">
+            <div class="hier-level-label">↳ Egyptian Standards (EOS)</div>
+            <div class="hier-level-content">ES 429:2023 — 할랄 식품 일반 요건<br/>ES 4249 (개정/드래프트)</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============ PAGE NAVIGATION ============ -->
+<div class="page-nav-band">
+  <nav class="page-nav">
+    <div class="pn-cell left">
+      <span class="pn-disabled">— 이 청서의 첫 권 —</span>
+    </div>
+    <div class="pn-indicator">
+      <div class="pn-indicator-num"><strong>I</strong><span>/</span>II</div>
+      <div class="pn-indicator-label">Volume</div>
+    </div>
+    <div class="pn-cell right">
+      <span class="pn-label">Next →</span>
+      <a href="halal-law-atlas-2.html" class="pn-link">
+        비교·표준·연표 편
+        <span class="pn-arrow">→</span>
+      </a>
+      <span class="pn-text-en">Vol. II — Comparative · Standards · Chronology</span>
+    </div>
+  </nav>
+</div>
+
+<!-- ============ FOOTER ============ -->
+<footer>
+  <div class="footer-inner">
+    <div>
+      <div class="footer-brand">할랄 법령 비교 청서</div>
+      <div class="footer-brand-en">Halal Regulatory Atlas — Comparative Compendium</div>
+      <p class="footer-text">
+        본 청서는 주요 10개국의 할랄 법령 체계를 진출·인증·통상 실무 관점에서 정리한 비공식 참고 자료입니다. 각국 법령의 정본은 해당국 관보 및 공식 게재 사이트를 따르며, 본 청서는 어떠한 법적 효력도 가지지 않습니다.
+      </p>
+    </div>
+    <div class="footer-col">
+      <h5>본문 구성</h5>
+      <ul>
+        <li>I. 개요 및 글로벌 컨텍스트</li>
+        <li>II. 국가별 핵심 개요</li>
+        <li>III. 법령 체계도</li>
+        <li>IV. 비교 매트릭스</li>
+        <li>V. OIC/SMIIC 표준</li>
+        <li>VI. 인증 절차</li>
+        <li>VII. 입법 연표</li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h5>업데이트 권장</h5>
+      <ul>
+        <li>인도네시아 · 분기별</li>
+        <li>이집트 · 분기별</li>
+        <li>튀르키예 · 반기</li>
+        <li>기타 국가 · 연 1회</li>
+        <li>OIC/SMIIC · 표준 개정 시</li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>HALAL REGULATORY ATLAS · VOL. 01 · 2026</span>
+    <span>REFERENCE ONLY · NOT LEGAL ADVICE</span>
+  </div>
+</footer>
+
+</body>
+</html>
